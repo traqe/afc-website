@@ -42,11 +42,11 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-lg-between">
 
-       <!-- <h0 class="logo me-auto me-lg-0"><a href="index.html">Welcome <span>to</span></a></h0> -->
+      <!-- <h0 class="logo me-auto me-lg-0"><a href="index.html">Welcome <span>to</span></a></h0> -->
       <!-- Uncomment below if you prefer to use an image logo -->
-   
-	  <a href="index.html" class="logo me-auto me-lg-0"> <img src="{{ asset('public') }}/img/olimem_logo_text.png" id="image_logo" alt="logo" class="img-fluid"> </a>
-		
+
+      <a href="index.html" class="logo me-auto me-lg-0"> <img src="{{ asset('public') }}/img/olimem_logo_text.png" id="image_logo" alt="logo" class="img-fluid"> </a>
+
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
@@ -54,8 +54,8 @@
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          
-		  <!--
+
+          <!--
 		  <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
 			
@@ -77,45 +77,45 @@
           </li>
 		  
 		-->
-		  
+
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <a href="#about" class="get-started-btn scrollto">Get Started</a> 
+      <a href="#about" class="get-started-btn scrollto">Get Started</a>
 
     </div>
   </header><!-- End Header -->
 
   @yield('content')
-  
- <!-- ======= Footer ======= -->
- <footer id="footer">
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
     <div class="footer-top">
       <div class="container">
         <div class="row">
 
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-             <!-- <h3>Gp<span>.</span></h3> -->
+              <!-- <h3>Gp<span>.</span></h3> -->
               <p>
                 <strong>Harare Branch (Headquarters)</strong><br>
                 Cnr 5th St. & RG Mugabe Way,
-                  Exploration Hse, 3rd Floor No 145.
+                Exploration Hse, 3rd Floor No 145.
                 <br>
                 <br>
                 <strong>Bulawayo Branch</strong><br>
-            
+
                 Fidelity Life Center, <br>
                 Cnr 11th Ave & Fife Street <br>1st Floor Suite 110, Bulawayo<br><br>
                 <strong>Phone:</strong> +263 8644 212346<br>
                 <strong>Email:</strong> olimembulawayo@gmail.com<br>
               </p>
               <div class="social-links mt-3">
-                
+
                 <a href="https://www.facebook.com/OlimemEnterpriseSolutions/" class="facebook"><i class="bx bxl-facebook"></i></a>
-				<!--
+                <!--
 				<a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                 <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
                 <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
@@ -147,7 +147,7 @@
             </ul>
           </div>
 
-<!--
+          <!--
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
