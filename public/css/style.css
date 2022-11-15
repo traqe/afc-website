@@ -615,7 +615,7 @@ section {
     margin: 0 auto;
     width: 64px;
     height: 64px;
-    background: rgb(3, 160, 74);
+    background: rgb(255, 0, 0);
     border-radius: 4px;
     display: flex;
     align-items: center;
