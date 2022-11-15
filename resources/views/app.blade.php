@@ -115,6 +115,7 @@
               <div class="social-links mt-3">
 
                 <a href="https://www.facebook.com/OlimemEnterpriseSolutions/" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/olimementerprises/" class="instagram"><i class="bx bxl-instagram"></i></a>
                 <!--
 				<a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                 <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
@@ -139,7 +140,6 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design and Hosting</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Software Development</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">SAGE Pastel</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
