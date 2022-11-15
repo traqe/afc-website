@@ -608,14 +608,14 @@ section {
     transition: all ease-in-out 0.3s;
     background: rgb(238, 238, 238);
     opacity: 90%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
     border-radius: 5px;
 }
 .services .icon-box .icon {
     margin: 0 auto;
     width: 64px;
     height: 64px;
-    background: rgb(255, 0, 0);
+    background: rgb(3, 160, 74);
     border-radius: 4px;
     display: flex;
     align-items: center;
@@ -1395,7 +1395,7 @@ section {
 }
 
 #motto {
-    color: rgb(255, 38, 0);
+    color: rgb(196, 32, 4);
     font-family: "Kaufmann BT";
     font-weight: bolder;
 }
