@@ -608,14 +608,14 @@ section {
     transition: all ease-in-out 0.3s;
     background: rgb(238, 238, 238);
     opacity: 90%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
 .services .icon-box .icon {
     margin: 0 auto;
     width: 64px;
     height: 64px;
-    background: rgb(255, 0, 0);
+    background: rgb(211, 13, 13);
     border-radius: 4px;
     display: flex;
     align-items: center;
@@ -638,7 +638,7 @@ section {
     transition: ease-in-out 0.3s;
 }
 .services .icon-box h4 a:hover {
-    color: rgb(3, 160, 74);
+    color: rgb(211, 13, 13);
 }
 .services .icon-box p {
     line-height: 24px;
@@ -646,7 +646,7 @@ section {
     margin-bottom: 0;
 }
 .services .icon-box:hover {
-    border-color: rgb(150, 201, 117);
+    border-color: rgb(3, 160, 74);
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
     transform: translateY(-10px);
 }
