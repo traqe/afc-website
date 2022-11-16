@@ -548,7 +548,7 @@
               </div>
             </div>
             <div class="member-info">
-              <h4>Crescent C. T. Phiri</h4>
+              <h4>Judith </h4>
               <span>HR & Administrator</span>
             </div>
           </div>
