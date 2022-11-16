@@ -199,16 +199,15 @@
         <div class="col-lg-12 d-flex justify-content-center">
           <ul id="portfolio-flters">
             <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">Products</li>
-            <li data-filter=".filter-card">Clients</li>
-            <li data-filter=".filter-web">//</li>
+            <li data-filter=".filter-councils">Councils</li>
+            <li data-filter=".filter-companies">Companies</li>
           </ul>
         </div>
       </div>
 
       <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-councils">
           <div class="portfolio-wrap">
             <img src="{{ asset('public') }}/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -222,7 +221,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-councils">
           <div class="portfolio-wrap">
             <img src="{{ asset('public') }}img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -236,7 +235,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-councils">
           <div class="portfolio-wrap">
             <img src="{{ asset('public') }}/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -250,7 +249,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-companies">
           <div class="portfolio-wrap">
             <img src="{{ asset('public') }}/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -264,7 +263,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-councils">
           <div class="portfolio-wrap">
             <img src="{{ asset('public') }}/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -278,7 +277,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-councils">
           <div class="portfolio-wrap">
             <img src="{{ asset('public') }}/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -292,7 +291,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-companies">
           <div class="portfolio-wrap">
             <img src="{{ asset('public') }}/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -306,7 +305,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-companies">
           <div class="portfolio-wrap">
             <img src="{{ asset('public') }}/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -320,7 +319,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-councils">
           <div class="portfolio-wrap">
             <img src="{{ asset('public') }}/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -548,7 +547,7 @@
               </div>
             </div>
             <div class="member-info">
-              <h4>Judith </h4>
+              <h4>Judith Magada</h4>
               <span>HR & Administrator</span>
             </div>
           </div>
