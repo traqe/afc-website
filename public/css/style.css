@@ -429,7 +429,7 @@ h6 {
 #hero .icon-box i {
     font-size: 32px;
     line-height: 1;
-    color: rgb(118, 192, 67);
+    color: rgb(3, 160, 74);
 }
 #hero .icon-box h3 {
     font-weight: 700;
@@ -444,7 +444,7 @@ h6 {
     transition: ease-in-out 0.3s;
 }
 #hero .icon-box h3 a:hover {
-    color: rgb(118, 192, 67);
+    color: rgb(3, 160, 74);
 }
 #hero .icon-box:hover {
     transform: scale(0.95, 0.95);
