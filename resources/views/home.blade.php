@@ -54,7 +54,7 @@
       <div class="row">
 
         <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-          <img src="{{ asset('public') }}/img/about.jpg" class="img-fluid" alt="">
+          <img src="{{ asset('public') }}/img/about.jpeg" class="img-fluid" alt="">
         </div>
         <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
           <h3>A software powerhouse, and more. Welcome to the OLIMEM experience.</h3>
@@ -83,7 +83,7 @@
     <div class="container" data-aos="fade-up">
 
       <div class="row">
-        <div class="image col-lg-6" style='background-image: url("{{ asset('public') }}/img/features.jpg");' data-aos="fade-right"></div>
+        <div class="image col-lg-6" style='background-image: url("{{ asset('public') }}/img/features.jpeg");' data-aos="fade-right"></div>
         <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
           <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
             <i class="bx bx-receipt"></i>
@@ -530,7 +530,25 @@
             </div>
             <div class="member-info">
               <h4>Nothando Ndlovu</h4>
-              <span>Business Development E</span>
+              <span>Business Development Executive</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div class="member" data-aos="fade-up" data-aos-delay="400">
+            <div class="member-img">
+              <img src="{{ asset('public') }}/img/team/team-5.jpeg" alt="image" class="img-fluid" alt="">
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info">
+              <h4>Crescent C. T. Phiri</h4>
+              <span>HR & Administrator</span>
             </div>
           </div>
         </div>
@@ -548,10 +566,11 @@
             </div>
             <div class="member-info">
               <h4>Judith Magada</h4>
-              <span>HR & Administrator</span>
+              <span>Accounts & Administration Officer</span>
             </div>
           </div>
         </div>
+
 
       </div>
 
