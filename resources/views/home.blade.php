@@ -54,7 +54,7 @@
       <div class="row">
 
         <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-          <img src="{{ asset('public') }}/img/about.jpg" class="img-fluid" alt="">
+          <img src="{{ asset('public') }}/img/about.jpeg" class="img-fluid" alt="">
         </div>
         <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
           <h3>A software powerhouse, and more. Welcome to the OLIMEM experience.</h3>
@@ -83,7 +83,7 @@
     <div class="container" data-aos="fade-up">
 
       <div class="row">
-        <div class="image col-lg-6" style='background-image: url("{{ asset('public') }}/img/features.jpg");' data-aos="fade-right"></div>
+        <div class="image col-lg-6" style='background-image: url("{{ asset('public') }}/img/features.jpeg");' data-aos="fade-right"></div>
         <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
           <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
             <i class="bx bx-receipt"></i>
@@ -171,6 +171,7 @@
     </div>
   </section><!-- End Services Section -->
 
+  {{--
   <!-- ======= Cta Section ======= -->
   <section id="cta" class="cta">
     <div class="container" data-aos="zoom-in">
@@ -183,6 +184,7 @@
 
     </div>
   </section><!-- End Cta Section -->
+  --}}
 
   <!-- ======= Portfolio Section ======= -->
   <section id="portfolio" class="portfolio">
@@ -197,135 +199,261 @@
         <div class="col-lg-12 d-flex justify-content-center">
           <ul id="portfolio-flters">
             <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">Products</li>
-            <li data-filter=".filter-card">Clients</li>
-            <li data-filter=".filter-web">//</li>
+            <li data-filter=".filter-councils">Councils</li>
+            <li data-filter=".filter-companies">Companies</li>
+            <li data-filter=".filter-products">Products</li>
           </ul>
         </div>
       </div>
 
       <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-councils">
           <div class="portfolio-wrap">
             <img src="{{ asset('public') }}/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
+              <h4>Mberengwa Rural District Council</h4>
+              <p>Council</p>
               <div class="portfolio-links">
-                <a href="{{ asset('public') }}/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="{{ asset('public') }}/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Mberengwa Rural District Council"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-councils">
           <div class="portfolio-wrap">
-            <img src="{{ asset('public') }}img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+            <img src="{{ asset('public') }}/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
+              <h4>Bubi Rural District Council</h4>
+              <p>Council</p>
               <div class="portfolio-links">
-                <a href="{{ asset('public') }}/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="{{ asset('public') }}/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Bubi Rural District Council"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-councils">
           <div class="portfolio-wrap">
             <img src="{{ asset('public') }}/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
+              <h4>Bikita Rural District Council</h4>
+              <p>Council</p>
               <div class="portfolio-links">
-                <a href="{{ asset('public') }}/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="{{ asset('public') }}/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Bikita Rural District Council"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="{{ asset('public') }}/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <div class="portfolio-links">
-                <a href="{{ asset('public') }}/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-councils">
           <div class="portfolio-wrap">
             <img src="{{ asset('public') }}/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
+              <h4>Buhera Rural District Council</h4>
+              <p>Council</p>
               <div class="portfolio-links">
-                <a href="{{ asset('public') }}/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="{{ asset('public') }}/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Buhera Rural District Council"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-councils">
           <div class="portfolio-wrap">
             <img src="{{ asset('public') }}/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
+              <h4>Chegutu Rural District Council</h4>
+              <p>Council</p>
               <div class="portfolio-links">
-                <a href="{{ asset('public') }}/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                <a href="{{ asset('public') }}/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Chegutu Rural District Council"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="{{ asset('public') }}/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
-              <div class="portfolio-links">
-                <a href="{{ asset('public') }}/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-companies">
           <div class="portfolio-wrap">
             <img src="{{ asset('public') }}/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
+              <h4>Beitbridge Town Council</h4>
+              <p>Council</p>
               <div class="portfolio-links">
-                <a href="{{ asset('public') }}/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="{{ asset('public') }}/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Beitbridge Town Council"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-councils">
           <div class="portfolio-wrap">
             <img src="{{ asset('public') }}/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
+              <h4>Makonde Rural District Council</h4>
+              <p>Council</p>
               <div class="portfolio-links">
-                <a href="{{ asset('public') }}/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="{{ asset('public') }}/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Makonde Rural District Council"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-councils">
+          <div class="portfolio-wrap">
+            <img src="{{ asset('public') }}/img/portfolio/portfolio-10.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Tsholotsho Rural District Council</h4>
+              <p>Council</p>
+              <div class="portfolio-links">
+                <a href="{{ asset('public') }}/img/portfolio/portfolio-10.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Tsholotsho Rural District Council"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-councils">
+          <div class="portfolio-wrap">
+            <img src="{{ asset('public') }}/img/portfolio/portfolio-11.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Chipinge Rural District Council</h4>
+              <p>Council</p>
+              <div class="portfolio-links">
+                <a href="{{ asset('public') }}/img/portfolio/portfolio-11.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Chipinge Rural District Council"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-councils">
+          <div class="portfolio-wrap">
+            <img src="{{ asset('public') }}/img/portfolio/portfolio-12.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Matobo Rural District Council</h4>
+              <p>Council</p>
+              <div class="portfolio-links">
+                <a href="{{ asset('public') }}/img/portfolio/portfolio-12.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Matobe Rural District Council"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-councils">
+          <div class="portfolio-wrap">
+            <img src="{{ asset('public') }}/img/portfolio/portfolio-13.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Mhondoro-Ngezi Rural District Council</h4>
+              <p>Council</p>
+              <div class="portfolio-links">
+                <a href="{{ asset('public') }}/img/portfolio/portfolio-13.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Mhondoro-Ngezi Rural District Council"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-councils">
+          <div class="portfolio-wrap">
+            <img src="{{ asset('public') }}/img/portfolio/portfolio-14.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Murehwa Rural District Council</h4>
+              <p>Council</p>
+              <div class="portfolio-links">
+                <a href="{{ asset('public') }}/img/portfolio/portfolio-14.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Murehwa Rural District Council"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-councils">
+          <div class="portfolio-wrap">
+            <img src="{{ asset('public') }}/img/portfolio/portfolio-15.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Umguza Rural District Council</h4>
+              <p>Council</p>
+              <div class="portfolio-links">
+                <a href="{{ asset('public') }}/img/portfolio/portfolio-15.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Umguza Rural District Council"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-councils">
+          <div class="portfolio-wrap">
+            <img src="{{ asset('public') }}/img/portfolio/portfolio-16.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Umzingwane Rural District Council</h4>
+              <p>Council</p>
+              <div class="portfolio-links">
+                <a href="{{ asset('public') }}/img/portfolio/portfolio-16.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Umzingwane Rural District Council"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-councils">
+          <div class="portfolio-wrap">
+            <img src="{{ asset('public') }}/img/portfolio/portfolio-17.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Vungu Rural District Council</h4>
+              <p>Council</p>
+              <div class="portfolio-links">
+                <a href="{{ asset('public') }}/img/portfolio/portfolio-17.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Vungu Rural District Council"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-products">
+          <div class="portfolio-wrap">
+            <img src="{{ asset('public') }}/img/portfolio/portfolio-18.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Networking Products</h4>
+              <p>Networking</p>
+              <div class="portfolio-links">
+                <a href="{{ asset('public') }}/img/portfolio/portfolio-18.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Networking Products"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-products">
+          <div class="portfolio-wrap">
+            <img src="{{ asset('public') }}/img/portfolio/portfolio-19.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Stationery Products</h4>
+              <p>Stationery</p>
+              <div class="portfolio-links">
+                <a href="{{ asset('public') }}/img/portfolio/portfolio-19.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Stationery Products"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-products">
+          <div class="portfolio-wrap">
+            <img src="{{ asset('public') }}/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Commando</h4>
+              <p>Commando Equipment</p>
+              <div class="portfolio-links">
+                <a href="{{ asset('public') }}/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Commando"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -389,6 +517,7 @@
     </div>
   </section><!-- End Counts Section -->
 
+  {{--
   <!-- ======= Testimonials Section ======= -->
   <section id="testimonials" class="testimonials">
     <div class="container" data-aos="zoom-in">
@@ -399,73 +528,74 @@
           <div class="swiper-slide">
             <div class="testimonial-item">
               <img src="{{ asset('public') }}/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-              <h3>Saul Goodman</h3>
-              <h4>Ceo &amp; Founder</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div><!-- End testimonial item -->
+  <h3>Saul Goodman</h3>
+  <h4>Ceo &amp; Founder</h4>
+  <p>
+    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+  </p>
+  </div>
+  </div><!-- End testimonial item -->
 
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <img src="{{ asset('public') }}/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-              <h3>Sara Wilsson</h3>
-              <h4>Designer</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div><!-- End testimonial item -->
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <img src="{{ asset('public') }}/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-              <h3>Jena Karlis</h3>
-              <h4>Store Owner</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div><!-- End testimonial item -->
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <img src="{{ asset('public') }}/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-              <h3>Matt Brandon</h3>
-              <h4>Freelancer</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div><!-- End testimonial item -->
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <img src="{{ asset('public') }}/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-              <h3>John Larson</h3>
-              <h4>Entrepreneur</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div><!-- End testimonial item -->
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
-
+  <div class="swiper-slide">
+    <div class="testimonial-item">
+      <img src="{{ asset('public') }}/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+      <h3>Sara Wilsson</h3>
+      <h4>Designer</h4>
+      <p>
+        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+        Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+      </p>
     </div>
+  </div><!-- End testimonial item -->
+
+  <div class="swiper-slide">
+    <div class="testimonial-item">
+      <img src="{{ asset('public') }}/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+      <h3>Jena Karlis</h3>
+      <h4>Store Owner</h4>
+      <p>
+        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+        Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+      </p>
+    </div>
+  </div><!-- End testimonial item -->
+
+  <div class="swiper-slide">
+    <div class="testimonial-item">
+      <img src="{{ asset('public') }}/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+      <h3>Matt Brandon</h3>
+      <h4>Freelancer</h4>
+      <p>
+        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+        Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+      </p>
+    </div>
+  </div><!-- End testimonial item -->
+
+  <div class="swiper-slide">
+    <div class="testimonial-item">
+      <img src="{{ asset('public') }}/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+      <h3>John Larson</h3>
+      <h4>Entrepreneur</h4>
+      <p>
+        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+        Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+      </p>
+    </div>
+  </div><!-- End testimonial item -->
+  </div>
+  <div class="swiper-pagination"></div>
+  </div>
+
+  </div>
   </section><!-- End Testimonials Section -->
+  --}}
 
   <!-- ======= Team Section ======= -->
   <section id="team" class="team">
@@ -527,7 +657,7 @@
             </div>
             <div class="member-info">
               <h4>Nothando Ndlovu</h4>
-              <span>Business Development E</span>
+              <span>Business Development Executive</span>
             </div>
           </div>
         </div>
@@ -544,7 +674,25 @@
               </div>
             </div>
             <div class="member-info">
-              <h4>Crescent Phiri</h4>
+              <h4>Judith Magada</h4>
+              <span>Accounts & Administration Officer</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div class="member" data-aos="fade-up" data-aos-delay="400">
+            <div class="member-img">
+              <img src="{{ asset('public') }}/img/team/team-5.jpeg" alt="image" class="img-fluid" alt="">
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info">
+              <h4>Crescent C. T. Phiri</h4>
               <span>HR & Administrator</span>
             </div>
           </div>
@@ -565,7 +713,7 @@
       </div>
 
       <div>
-        <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d936.3497667837347!2d28.58339187952031!3d-20.159103126482055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1eb55474f449f011%3A0xaf9c847179e0d32f!2sFidelity%20Life%20Centre%2C%20Eleventh%20Ave%2C%20Bulawayo!5e0!3m2!1sen!2szw!4v1643808934354!5m2!1sen!2szw" frameborder="0" allowfullscreen></iframe>
+        <iframe style="border: 0; width: 100%; height: 270px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d936.3497667837347!2d28.58339187952031!3d-20.159103126482055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1eb55474f449f011%3A0xaf9c847179e0d32f!2sFidelity%20Life%20Centre%2C%20Eleventh%20Ave%2C%20Bulawayo!5e0!3m2!1sen!2szw!4v1643808934354!5m2!1sen!2szw" frameborder="0" allowfullscreen></iframe>
       </div>
 
       <div class="row mt-5">
@@ -577,7 +725,7 @@
               <h4>Location:</h4>
               <br>
               <p><strong>Harare Branch (HQ)</strong><br>Cnr 5th St. & RG Mugabe Way,
-                Exploration Hse, 3rd Floor No 145.<br><br><strong>Bulawayo Branch</strong><br>Fidelity Life Center,Cnr 11th Ave and Fife Street ,1st Floor Suite 110, Bulawayo, Zimbabwe
+                Exploration Hse, 3rd Floor No 145, Harare, Zimbabwe<br><br><strong>Bulawayo Branch</strong><br>Fidelity Life Center,Cnr 11th Ave and Fife Street, 1st Floor Suite 110, Bulawayo, Zimbabwe
               </p>
             </div>
 

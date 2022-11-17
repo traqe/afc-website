@@ -109,9 +109,7 @@
 
                 Fidelity Life Center, <br>
                 Cnr 11th Ave & Fife Street <br>1st Floor Suite 110, Bulawayo<br><br>
-                <strong>Phone:</strong> +263 8644 212346<br>
-                <strong>Email:</strong> olimembulawayo@gmail.com<br>
-              </p>
+
               <div class="social-links mt-3">
 
                 <a href="https://www.facebook.com/OlimemEnterpriseSolutions/" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -124,6 +122,18 @@
 				-->
               </div>
             </div>
+          </div>
+
+          <div class="col-lg-3 col-md-8">
+            <strong>Phone</strong><br>
+            <br>
+            <strong>Harare:</strong> <br> +263775902459/ +263775285850 <br>
+            <br>
+            <strong>Bulawayo:</strong> <br> +2638644263212346/ +263735842573
+            <br>
+            <br>
+            <strong>Email:</strong> olimembulawayo@gmail.com<br>
+            </p>
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
