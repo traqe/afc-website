@@ -666,24 +666,6 @@
         <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
           <div class="member" data-aos="fade-up" data-aos-delay="400">
             <div class="member-img">
-              <img src="{{ asset('public') }}/img/team/team-5.jpeg" alt="image" class="img-fluid" alt="">
-              <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-            <div class="member-info">
-              <h4>Crescent C. T. Phiri</h4>
-              <span>HR & Administrator</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-          <div class="member" data-aos="fade-up" data-aos-delay="400">
-            <div class="member-img">
               <img src="{{ asset('public') }}/img/team/team-4.jpg" class="img-fluid" alt="">
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
@@ -699,6 +681,23 @@
           </div>
         </div>
 
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div class="member" data-aos="fade-up" data-aos-delay="400">
+            <div class="member-img">
+              <img src="{{ asset('public') }}/img/team/team-5.jpeg" alt="image" class="img-fluid" alt="">
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info">
+              <h4>Crescent C. T. Phiri</h4>
+              <span>HR & Administrator</span>
+            </div>
+          </div>
+        </div>
 
       </div>
 

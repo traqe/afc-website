@@ -1101,8 +1101,8 @@ section {
 }
 .contact .info i {
     font-size: 20px;
-    background: rgb(12, 201, 98);
-    color: black;
+    background: rgb(0, 0, 0);
+    color: white;
     float: left;
     width: 44px;
     height: 44px;
