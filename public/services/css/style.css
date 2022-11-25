@@ -1216,14 +1216,14 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 ================================================== */
 /*-- Main slide --*/
 .banner-carousel .banner-carousel-item {
-  height: 700px;
-  color: #fff;
+  height: 600px;
+  color: #03a04a;
   background-position: 50% 50%;
   background-size: cover;
 }
 @media (max-width: 991px) {
   .banner-carousel .banner-carousel-item {
-    height: 550px;
+    height: 500px;
   }
 }
 @media (max-width: 575px) {
@@ -1242,7 +1242,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   font-size: 16px;
   line-height: 39px;
   background: #d30d0d;
-  color: #fff;
+  color: #03a04a;
   display: inline-block;
   padding: 0 15px;
   margin: 0 0 10px;
@@ -1252,7 +1252,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   font-size: 30px;
   line-height: 36px;
   font-weight: 300;
-  color: #fff;
+  color: #03a04a;
   margin: 20px 0 10px;
 }
 @media (max-width: 991px) {
@@ -1271,7 +1271,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   font-size: 60px;
   line-height: 58px;
   margin: 20px 0;
-  color: #fff;
+  color: #03a04a;
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: -1px;
@@ -1291,7 +1291,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 .slider-text {
   display: table;
   vertical-align: bottom;
-  color: #fff;
+  color: #03a04a;
   padding-left: 40%;
   width: 100%;
   padding-bottom: 0;
