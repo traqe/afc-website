@@ -29,3 +29,6 @@ Route::get('/shop', function () {
     return view('shop.index');
 });
 
+Route::get('/sage', function () {
+    return view('services.sage');
+});
