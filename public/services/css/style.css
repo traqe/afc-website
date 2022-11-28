@@ -1222,15 +1222,17 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 ================================================== */
 /*-- Main slide --*/
 .banner-carousel .banner-carousel-item {
-    height: 700px;
-    color: #fff;
-    background-position: 50% 50%;
-    background-size: cover;
+
+  height: 600px;
+  color: #03a04a;
+  background-position: 50% 50%;
+  background-size: cover;
 }
 @media (max-width: 991px) {
-    .banner-carousel .banner-carousel-item {
-        height: 550px;
-    }
+  .banner-carousel .banner-carousel-item {
+    height: 500px;
+  }
+
 }
 @media (max-width: 575px) {
     .banner-carousel .banner-carousel-item {
@@ -1245,21 +1247,23 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .slide-title-box {
-    font-size: 16px;
-    line-height: 39px;
-    background: #d30d0d;
-    color: #fff;
-    display: inline-block;
-    padding: 0 15px;
-    margin: 0 0 10px;
+
+  font-size: 16px;
+  line-height: 39px;
+  background: #d30d0d;
+  color: #03a04a;
+  display: inline-block;
+  padding: 0 15px;
+  margin: 0 0 10px;
 }
 
 .slide-title {
-    font-size: 30px;
-    line-height: 36px;
-    font-weight: 300;
-    color: #fff;
-    margin: 20px 0 10px;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 300;
+  color: #03a04a;
+  margin: 20px 0 10px;
+
 }
 @media (max-width: 991px) {
     .slide-title {
@@ -1273,14 +1277,16 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .slide-sub-title {
-    font-style: normal;
-    font-size: 60px;
-    line-height: 58px;
-    margin: 20px 0;
-    color: #fff;
-    font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: -1px;
+
+  font-style: normal;
+  font-size: 60px;
+  line-height: 58px;
+  margin: 20px 0;
+  color: #03a04a;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+
 }
 @media (max-width: 991px) {
     .slide-sub-title {
@@ -1295,13 +1301,15 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .slider-text {
-    display: table;
-    vertical-align: bottom;
-    color: #fff;
-    padding-left: 40%;
-    width: 100%;
-    padding-bottom: 0;
-    padding-top: 20px;
+
+  display: table;
+  vertical-align: bottom;
+  color: #03a04a;
+  padding-left: 40%;
+  width: 100%;
+  padding-bottom: 0;
+  padding-top: 20px;
+
 }
 
 .slider-text .slide-head {
