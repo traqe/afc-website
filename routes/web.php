@@ -29,7 +29,6 @@ Route::get('/shop', function () {
     return view('shop.index');
 });
 
-
 // route to software-development-service-page
 Route::get('/software-development', function () {
     return view('services.software-dev');
