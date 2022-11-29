@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
   <!-- Basic Page Needs
@@ -36,81 +37,82 @@
   <link rel="stylesheet" href="{{ asset('public/services') }}/css/style.css">
 
 </head>
+
 <body>
-    
-<!-- Header start -->
-<header id="header" class="header-one">
+
+  <!-- Header start -->
+  <header id="header" class="header-one">
     <div class="bg-white">
-        <div class="container">
-          <div class="logo-area">
-              <div class="row align-items-center">
-                <div class="logo col-lg-3 text-center text-lg-left mb-3 mb-md-5 mb-lg-0">
-                    <a class="d-block" href="index.html">
-                      <img loading="lazy" src="public/services/images/logo.png" alt="Olimem">
-                    </a>
-                </div><!-- logo end -->
-      
-                <div class="col-lg-9 header-right">
-                    <ul class="top-info-box">
-                      <li>
-                        <div class="info-box">
-                          <div class="info-box-content">
-                              <p class="info-box-title">Call Us</p>
-                              <p class="info-box-subtitle">+263 8644 212346</p>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="info-box">
-                          <div class="info-box-content">
-                              <p class="info-box-title">Email Us</p>
-                              <p class="info-box-subtitle">olimembulawayo@gmail.com</p>
-                          </div>
-                        </div>
-                      </li>
-                
-                      <li class="header-get-a-quote">
-                        <a class="btn btn-success" href="contact.html">Request a Qoute</a>
-                      </li>
-                    </ul><!-- Ul end -->
-                </div><!-- header right end -->
-              </div><!-- logo area end -->
-      
-          </div><!-- Row end -->
-        </div><!-- Container end -->
-      </div>
-    
-  <div class="site-navigation">
-    <div class="container">
+      <div class="container">
+        <div class="logo-area">
+          <div class="row align-items-center">
+            <div class="logo col-lg-3 text-center text-lg-left mb-3 mb-md-5 mb-lg-0">
+              <a class="d-block" href="index.html">
+                <img loading="lazy" src="public/services/images/logo.png" alt="Olimem">
+              </a>
+            </div><!-- logo end -->
+
+            <div class="col-lg-9 header-right">
+              <ul class="top-info-box">
+                <li>
+                  <div class="info-box">
+                    <div class="info-box-content">
+                      <p class="info-box-title">Call Us</p>
+                      <p class="info-box-subtitle">+263 8644 212346</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="info-box">
+                    <div class="info-box-content">
+                      <p class="info-box-title">Email Us</p>
+                      <p class="info-box-subtitle">olimembulawayo@gmail.com</p>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="header-get-a-quote">
+                  <a class="btn btn-success" href="contact.html">Request a Qoute</a>
+                </li>
+              </ul><!-- Ul end -->
+            </div><!-- header right end -->
+          </div><!-- logo area end -->
+
+        </div><!-- Row end -->
+      </div><!-- Container end -->
+    </div>
+
+    <div class="site-navigation">
+      <div class="container">
         <div class="row">
           <div class="col-lg-12">
-              <nav class="navbar navbar-expand-lg navbar-dark p-0">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                <div id="navbar-collapse" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav mr-auto">
-                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
 
-                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-              
-                      <li class="nav-item dropdown">
-                          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Services <i class="fa fa-angle-down"></i></a>
-                          <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Sage Evolution ERP</a></li>
-                            <li><a href="#">Software Development</a></li>
-                            <li><a href="gis">GIS</a></li>
-                            <li><a href="#">Payroll & HR</a></li>
-                            <li><a href="#">IT Support</a></li>
-                            <li><a href="#">Reporting</a></li>
-                          </ul>
-                      </li>
-                      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                      <li class="nav-item"><a class="nav-link" href="contact.html">Shop</a></li>
+              <div id="navbar-collapse" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav mr-auto">
+                  <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+
+                  <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+
+                  <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Services <i class="fa fa-angle-down"></i></a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="#">Sage Evolution ERP</a></li>
+                      <li><a href="software-development">Software Development</a></li>
+                      <li><a href="#">GIS</a></li>
+                      <li><a href="#">Payroll & HR</a></li>
+                      <li><a href="#">IT Support</a></li>
+                      <li><a href="#">Reporting</a></li>
                     </ul>
-                </div>
-              </nav>
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                  <li class="nav-item"><a class="nav-link" href="contact.html">Shop</a></li>
+                </ul>
+              </div>
+            </nav>
           </div>
           <!--/ Col end -->
         </div>
@@ -126,17 +128,17 @@
           </label>
           <span class="search-close">&times;</span>
         </div><!-- Site search end -->
+      </div>
+      <!--/ Container end -->
+
     </div>
-    <!--/ Container end -->
+    <!--/ Navigation end -->
+  </header>
+  <!--/ Header end -->
+  @yield('content')
 
-  </div>
-  <!--/ Navigation end -->
-</header>
-<!--/ Header end -->
-@yield('content')
-
- <!-- ======= Footer ======= -->
- <footer id="footer" class="footer bg-overlay">
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer bg-overlay">
     <div class="footer-main">
       <div class="container">
         <div class="row justify-content-between">
@@ -255,6 +257,6 @@
   <script src="{{ asset('public/services') }}/js/script.js"></script>
 
   </div><!-- Body inner end -->
-  </body>
+</body>
 
-  </html>
+</html>
