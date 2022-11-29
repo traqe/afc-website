@@ -30,7 +30,7 @@ Route::get('/shop', function () {
 });
 
 // route to software-development-service-page
-Route::get('service/software-development', function () {
+Route::get('/software-development', function () {
     return view('services.software-dev');
 });
 

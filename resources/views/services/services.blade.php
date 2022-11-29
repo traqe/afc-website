@@ -53,9 +53,9 @@
               <img loading="lazy" src="public/services/images/icon-image/service-icon2.png" alt="service-icon">
             </div>
             <div class="ts-service-info">
-              <h3 class="service-box-title"><a href="services/software-development">Software Development</a></h3>
+              <h3 class="service-box-title"><a href="software-development">Software Development</a></h3>
               <p>We are aware of the diverse software requirements that each organization has thanks to our extensive experience. For this reason, we provide a variety of software development services.</p>
-              <a class="learn-more d-inline-block" href="service-single.html" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
+              <a class="learn-more d-inline-block" href="software-development" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
             </div>
           </div>
         </div><!-- Service2 end -->
