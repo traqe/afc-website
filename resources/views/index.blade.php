@@ -2,16 +2,16 @@
 @section('content')
 
 <div class="banner-carousel banner-carousel-1 mb-0">
-    <div class="banner-carousel-item" style="background-image:url(public/services/images/slider-main/slider1.jpg)">
+    <div class="banner-carousel-item" style="background-image:url(public/services/images/slider-main/finance.jpg)">
       <div class="slider-content">
           <div class="container h-100">
             <div class="row align-items-center h-100">
                 <div class="col-md-12 text-center">
                   <h2 class="slide-title" data-animation-in="slideInLeft">19 Years of excellence in</h2>
-                  <h3 class="slide-sub-title" data-animation-in="slideInRight">Accounting Consultancy</h3>
+                  <h3 class="slide-sub-title" data-animation-in="slideInRight">Financial Consultancy</h3>
                   <p data-animation-in="slideInLeft" data-duration-in="1.2">
-                      <a href="services.html" class="slider btn btn-primary">Our Services</a>
-                      <a href="contact.html" class="slider btn btn-primary border">Contact Now</a>
+                      <a href="services.html" class="slider btn btn-danger">Our Services</a>
+                      <a href="contact.html" class="slider btn btn-warning border">Contact Now</a>
                   </p>
                 </div>
             </div>
@@ -19,16 +19,16 @@
       </div>
     </div>
   
-    <div class="banner-carousel-item" style="background-image:url(images/slider-main/bg2.jpg)">
+    <div class="banner-carousel-item" style="background-image:url(public/services/images/slider-main/solutions.jpg)">
       <div class="slider-content text-left">
           <div class="container h-100">
             <div class="row align-items-center h-100">
                 <div class="col-md-12">
-                  <h2 class="slide-title-box" data-animation-in="slideInDown">World Class Service</h2>
-                  <h3 class="slide-title" data-animation-in="fadeIn">When Service Matters</h3>
-                  <h3 class="slide-sub-title" data-animation-in="slideInLeft">Your Choice is Simple</h3>
+                  <h2 class="slide-title-box" data-animation-in="slideInDown">IT solutions</h2>
+                  <h3 class="slide-title" data-animation-in="fadeIn">Hardware & Software</h3>
+                  <h3 class="slide-sub-title" data-animation-in="slideInLeft">Top Grade Technology</h3>
                   <p data-animation-in="slideInRight">
-                      <a href="services.html" class="slider btn btn-primary border">Our Services</a>
+                      <a href="services.html" class="slider btn btn-danger border">Our Services</a>
                   </p>
                 </div>
             </div>
@@ -36,14 +36,14 @@
       </div>
     </div>
   
-    <div class="banner-carousel-item" style="background-image:url(images/slider-main/bg3.jpg)">
+    <div class="banner-carousel-item" style="background-image:url(public/services/images/slider-main/team.jpg)">
       <div class="slider-content text-right">
           <div class="container h-100">
             <div class="row align-items-center h-100">
                 <div class="col-md-12">
-                  <h2 class="slide-title" data-animation-in="slideInDown">Meet Our Engineers</h2>
-                  <h3 class="slide-sub-title" data-animation-in="fadeIn">We believe sustainability</h3>
-                  <p class="slider-description lead" data-animation-in="slideInRight">We will deal with your failure that determines how you achieve success.</p>
+                  <h2 class="slide-title" data-animation-in="slideInDown">Professional Consultants</h2>
+                  <h3 class="slide-sub-title" data-animation-in="fadeIn">We Are Results Oriented</h3>
+                  <p class="slider-description lead" data-animation-in="slideInRight">Expert Advice To Businesses And Organisations.</p>
                   <div data-animation-in="slideInLeft">
                       <a href="contact.html" class="slider btn btn-primary" aria-label="contact-with-us">Get Free Quote</a>
                       <a href="about.html" class="slider btn btn-primary border" aria-label="learn-more-about-us">Learn more</a>
@@ -256,31 +256,31 @@
           <div class="col-lg-4">
             <div class="ts-service-box d-flex">
                 <div class="ts-service-box-img">
-                  <img loading="lazy" src="images/icon-image/service-icon1.png" alt="service-icon">
+                  <img loading="lazy" src="public/services/images/icon-image/service-icon1.png" alt="service-icon">
                 </div>
                 <div class="ts-service-box-info">
-                  <h3 class="service-box-title"><a href="#">Home Construction</a></h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Integer adipiscing erat</p>
+                  <h3 class="service-box-title"><a href="#">Sage Evolution ERP</a></h3>
+                  <p>Regain the fundamentals with clever, economical software for large businesses</p>
                 </div>
             </div><!-- Service 1 end -->
   
             <div class="ts-service-box d-flex">
                 <div class="ts-service-box-img">
-                  <img loading="lazy" src="images/icon-image/service-icon2.png" alt="service-icon">
+                  <img loading="lazy" src="public/services/images/icon-image/service-icon2.png" alt="service-icon">
                 </div>
                 <div class="ts-service-box-info">
-                  <h3 class="service-box-title"><a href="#">Building Remodels</a></h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Integer adipiscing erat</p>
+                  <h3 class="service-box-title"><a href="#">Software Development</a></h3>
+                  <p>We are aware of the diverse software requirements that each organization has thanks to our extensive experience. For this reason, we provide a variety of software development services.</p>
                 </div>
             </div><!-- Service 2 end -->
   
             <div class="ts-service-box d-flex">
                 <div class="ts-service-box-img">
-                  <img loading="lazy" src="images/icon-image/service-icon3.png"  alt="service-icon">
+                  <img loading="lazy" src="public/services/images/icon-image/service-icon3.png"  alt="service-icon">
                 </div>
                 <div class="ts-service-box-info">
-                  <h3 class="service-box-title"><a href="#">Interior Design</a></h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Integer adipiscing erat</p>
+                  <h3 class="service-box-title"><a href="#">Geographical Information Systems</a></h3>
+                  <p>With the use of a well-designed Geographic Information System (GIS), businesses may glean useful information from location-based information, map layers, and 3D modeling.</p>
                 </div>
             </div><!-- Service 3 end -->
   
@@ -293,31 +293,31 @@
           <div class="col-lg-4 mt-5 mt-lg-0 mb-4 mb-lg-0">
             <div class="ts-service-box d-flex">
                 <div class="ts-service-box-img">
-                  <img loading="lazy" src="images/icon-image/service-icon4.png" alt="service-icon">
+                  <img loading="lazy" src="public/services/images/icon-image/service-icon4.png" alt="service-icon">
                 </div>
                 <div class="ts-service-box-info">
-                  <h3 class="service-box-title"><a href="#">Exterior Design</a></h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Integer adipiscing erat</p>
+                  <h3 class="service-box-title"><a href="#">IT Support</a></h3>
+                  <p>Proactive IT planning, cloud support, a help desk, and other features can transform your business. For companies of all sizes, we provide a comprehensive range of services.</p>
                 </div>
             </div><!-- Service 4 end -->
   
             <div class="ts-service-box d-flex">
                 <div class="ts-service-box-img">
-                  <img loading="lazy" src="images/icon-image/service-icon5.png" alt="service-icon">
+                  <img loading="lazy" src="public/services/images/icon-image/fact3.png" alt="service-icon">
                 </div>
                 <div class="ts-service-box-info">
-                  <h3 class="service-box-title"><a href="#">Renovation</a></h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Integer adipiscing erat</p>
+                  <h3 class="service-box-title"><a href="#">Payroll & HR</a></h3>
+                  <p>Your HR leaders may rest easy knowing that all legal obligations are being completed throughout your firm by using our payroll and HR services, which come with guaranteed local compliance.</p>
                 </div>
             </div><!-- Service 5 end -->
   
             <div class="ts-service-box d-flex">
                 <div class="ts-service-box-img">
-                  <img loading="lazy" src="images/icon-image/service-icon6.png" alt="service-icon">
+                  <img loading="lazy" src="public/services/images/icon-image/fact2.png" alt="service-icon">
                 </div>
                 <div class="ts-service-box-info">
-                  <h3 class="service-box-title"><a href="#">Safety Management</a></h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Integer adipiscing erat</p>
+                  <h3 class="service-box-title"><a href="#">Reporting</a></h3>
+                  <p>Rich data visualization, such as charts, maps, and sparklines, can be accessed on demand through our Reporting services.</p>
                 </div>
             </div><!-- Service 6 end -->
           </div><!-- Col end -->
@@ -343,11 +343,11 @@
             <label class="active" for="all">
               <input type="radio" name="shuffle-filter" id="all" value="all" checked="checked">Show All
             </label>
-            <label for="commercial">
+            <label for="RDC">
               <input type="radio" name="shuffle-filter" id="commercial" value="commercial">RDC
             </label>
-            <label for="education">
-              <input type="radio" name="shuffle-filter" id="education" value="education">Schools
+            <label for="OTHER">
+              <input type="radio" name="shuffle-filter" id="education" value="education">Other
             </label>
           </div><!-- project filter end -->
   
@@ -371,8 +371,8 @@
   
             <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;government&quot;]">
               <div class="project-img-container">
-                <a class="gallery-popup" href="images/projects/portfolio-2.jpg" aria-label="project-img">
-                  <img class="img-fluid" src="images/projects/portfolio-2.jpg" alt="project-img">
+                <a class="gallery-popup" href="public/services/images/projects/portfolio-2.jpg" aria-label="project-img">
+                  <img class="img-fluid" src="public/services/images/projects/portfolio-2.jpg" alt="project-img">
                   <span class="gallery-icon"><i class="fa fa-plus"></i></span>
                 </a>
                 <div class="project-item-info">

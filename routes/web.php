@@ -33,3 +33,7 @@ Route::get('/shop', function () {
 Route::get('service/software-development', function () {
     return view('services.software-dev');
 });
+
+Route::get('/sage', function () {
+    return view('services.sage');
+});
