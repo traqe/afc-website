@@ -29,7 +29,7 @@
       <div class="col-xl-2 col-md-4">
         <div class="icon-box">
           <i class="ri-store-line"></i>
-          <h3><a href="#services">Geographical Information Systems</a></h3>
+          <h3><a href="gis">Geographical Information Systems</a></h3>
         </div>
       </div>
       <div class="col-xl-2 col-md-4">

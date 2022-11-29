@@ -100,7 +100,7 @@
                           <ul class="dropdown-menu" role="menu">
                             <li><a href="#">Sage Evolution ERP</a></li>
                             <li><a href="#">Software Development</a></li>
-                            <li><a href="#">GIS</a></li>
+                            <li><a href="gis">GIS</a></li>
                             <li><a href="#">Payroll & HR</a></li>
                             <li><a href="#">IT Support</a></li>
                             <li><a href="#">Reporting</a></li>

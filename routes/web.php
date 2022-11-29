@@ -28,4 +28,12 @@ Route::get('/services', function () {
 Route::get('/shop', function () {
     return view('shop.index');
 });
+Route::get('/gis', function () {
+    return view('services.gis');
+});
+Route::get('/sage-evolution', function () {
+    return view('services.sage');
+});
+
+
 
