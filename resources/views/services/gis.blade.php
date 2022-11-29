@@ -33,7 +33,7 @@
                     <div class="widget">
                         <h3 class="widget-title">Solutions</h3>
                         <ul class="nav service-menu bg-success">
-                            <li class=" bg-success" id="summary" onclick="what_is_it()"><a>WHAT IS IT?</a></li>
+                            <li class=" " id="summary" onclick="what_is_it()"><a>WHAT IS IT?</a></li>
                             <li class=" " id="sensing" onclick="remote_sensing()"><a>REMOTE SENSING</a></li>
                             <li class=" " id="cart" onclick="cartograph_y()"><a>CARTOGRAPHY</a></li>
                             <li class=" " id="register" onclick="sales()"><a>DRONE SALES AND REGISTRATION</a></li>
@@ -68,7 +68,9 @@
     <div class="item">
         <img loading="lazy" class="img-fluid" src="{{ asset('public') }}/img/gis/gis agric.png" alt="project-slider-image" />
     </div>
-
+    <div class="item">
+        <img loading="lazy" class="img-fluid" src="{{ asset('public') }}/img/gis/RS2.jpg" alt="project-slider-image" />
+    </div>
     <div class="item">
         <img loading="lazy" class="img-fluid" src="{{ asset('public') }}/img/gis/gis agric4.jpg" alt="project-slider-image" />
     </div>
@@ -76,9 +78,7 @@
     <div class="item">
         <img loading="lazy" class="img-fluid" src="{{ asset('public') }}/img/gis/gis2.jpg" alt="project-slider-image" />
     </div>
-    <div class="item">
-        <img loading="lazy" class="img-fluid" src="{{ asset('public') }}/img/gis/RS2.jpg" alt="project-slider-image" />
-    </div>
+    
     <div class="item">
         <img loading="lazy" class="img-fluid" src="{{ asset('public') }}/img/gis/cart.jpg" alt="project-slider-image" />
     </div>
@@ -203,8 +203,8 @@
         <h5><p> Remote sensing is the process of detecting and monitoring the physical 
             characteristics of an area by measuring its reflected and emitted radiation at a 
             distance (typically from satellite or aircraft). Special cameras collect remotely 
-            sensed images, which help researchers "sense" things about the Earth</p>
-        <p> some of the  uses of remotes senses are:</h5></p>
+            sensed images, which help researchers "sense" things about the Earth.  some of the  uses of remotes senses are:</p></h5>
+
         <p><strong>-analysis and visulizations of particular sizes</strong></p>
         <p><strong>-sustainable planning and development</strong></p>
         <p><strong>-infrastructure  safety</strong></p>
@@ -252,7 +252,7 @@
         document.getElementById("remote_sensing").className = " ";
         document.getElementById("cartography").className = " ";
         //document.getElementById("custom_emails_active").className = " ";
-        document.getElementById("summary").className = "";
+        document.getElementById("summary").className = "active";
       }
     function remote_sensing() {
         var new_t = document.getElementById("remote").innerHTML;
@@ -260,7 +260,7 @@
         document.getElementById("remote_sensing").className = " ";
         document.getElementById("cartography").className = " ";
         //document.getElementById("custom_emails_active").className = " ";
-        document.getElementById("sensing").className = "";
+        document.getElementById("sensing").className = "active";
     }
 
     function cartograph_y() {
