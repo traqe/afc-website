@@ -279,7 +279,7 @@
                   <img loading="lazy" src="public/services/images/icon-image/service-icon3.png"  alt="service-icon">
                 </div>
                 <div class="ts-service-box-info">
-                  <h3 class="service-box-title"><a href="#">Geographical Information Systems</a></h3>
+                  <h3 class="service-box-title"><a href="gis">Geographical Information Systems</a></h3>
                   <p>With the use of a well-designed Geographic Information System (GIS), businesses may glean useful information from location-based information, map layers, and 3D modeling.</p>
                 </div>
             </div><!-- Service 3 end -->

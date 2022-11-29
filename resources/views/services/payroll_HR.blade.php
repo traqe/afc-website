@@ -1,5 +1,4 @@
 @extends('services.header')
-
 @section('content')
 <div id="banner-area" class="banner-area" style="background-image:url(public/services/images/banner/sage.jpg)">
     <div class="banner-text">
@@ -327,4 +326,3 @@
     }
     </script>
   @endsection
-
