@@ -101,7 +101,7 @@
                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Services <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown-menu" role="menu">
                       <li><a href="#">Sage Evolution ERP</a></li>
-                      <li><a href="services/software-development">Software Development</a></li>
+                      <li><a href="software-development">Software Development</a></li>
                       <li><a href="#">GIS</a></li>
                       <li><a href="#">Payroll & HR</a></li>
                       <li><a href="#">IT Support</a></li>
