@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div id="banner-area" class="banner-area" style="background-image:url(public/img/gis/gis2.jpg)">
+<div id="banner-area" class="banner-area" style="background-image:url(public/services/images/gis/gis2.jpg)">
     <div class="banner-text">
         <div class="container">
             <div class="row">
@@ -32,11 +32,15 @@
                 <div class="sidebar sidebar-left">
                     <div class="widget">
                         <h3 class="widget-title">Solutions</h3>
-                        <ul class="nav service-menu bg-success">
-                            <li class=" " id="summary" onclick="what_is_it()"><a>WHAT IS IT?</a></li>
-                            <li class=" " id="sensing" onclick="remote_sensing()"><a>REMOTE SENSING</a></li>
-                            <li class=" " id="cart" onclick="cartograph_y()"><a>CARTOGRAPHY</a></li>
-                            <li class=" " id="register" onclick="sales()"><a>DRONE SALES AND REGISTRATION</a></li>
+                        <ul class="nav service-menu ">
+                            <li class=" active" id="summary" onclick="what_is_it()"><a>WHAT IS IT?</a></li>
+
+                            <li class=" " id="sensing"><a  onclick="remote_sensing()">REMOTE SENSING</a></li>
+                            <li class=" " id="cart" ><a onclick="cartograph_y()">CARTOGRAPHY</a></li>
+                            <li class=" " id="drone"><a  onclick="farming()">GIS IN AGRICULTURE</a></li>
+                            <li class=" " id="register" ><a onclick="sales()">DRONE SALES AND REGISTRATION</a></li>
+                            
+
 
                             <!--<li class=" " id="custom_emails_active" onclick="customEmails()"><a>Custom Company Emails</a></li>-->
                         </ul>
@@ -62,25 +66,25 @@
 
 <div id="page-slider" class="page-slider">
     <div class="item">
-        <img loading="lazy" class="img-fluid" src="{{ asset('public') }}/img/gis/gis2.jpg" alt="project-slider-image" />
+        <img loading="lazy" class="img-fluid" src="{{ asset('public') }}/services/images/gis/gis2.jpg" alt="project-slider-image" />
     </div>
 
     <div class="item">
-        <img loading="lazy" class="img-fluid" src="{{ asset('public') }}/img/gis/gis agric.png" alt="project-slider-image" />
-    </div>
-    <div class="item">
-        <img loading="lazy" class="img-fluid" src="{{ asset('public') }}/img/gis/RS2.jpg" alt="project-slider-image" />
-    </div>
-    <div class="item">
-        <img loading="lazy" class="img-fluid" src="{{ asset('public') }}/img/gis/gis agric4.jpg" alt="project-slider-image" />
+        <img loading="lazy" class="img-fluid" src="{{ asset('public') }}/services/images/gis/gis agric.png" alt="project-slider-image" />
     </div>
 
     <div class="item">
-        <img loading="lazy" class="img-fluid" src="{{ asset('public') }}/img/gis/gis2.jpg" alt="project-slider-image" />
+        <img loading="lazy" class="img-fluid" src="{{ asset('public') }}/services/images/gis/gis agric4.jpg" alt="project-slider-image" />
     </div>
-    
+
     <div class="item">
-        <img loading="lazy" class="img-fluid" src="{{ asset('public') }}/img/gis/cart.jpg" alt="project-slider-image" />
+        <img loading="lazy" class="img-fluid" src="{{ asset('public') }}/services/images/gis/gis2.jpg" alt="project-slider-image" />
+    </div>
+    <div class="item">
+        <img loading="lazy" class="img-fluid" src="{{ asset('public') }}/services/images/gis/RS2.jpg" alt="project-slider-image" />
+    </div>
+    <div class="item">
+        <img loading="lazy" class="img-fluid" src="{{ asset('public') }}/services/images/gis/cart.jpg" alt="project-slider-image" />
     </div>
 
     
@@ -92,8 +96,8 @@
                         <div class="col-md-6">
                             <h3  class="column-title-small">What Makes Us Different</h3>
 
-                            <p>For state-of the art responsive websites, built to reflect your business in the best light possible. We also offer assistance
-                                with web hosting and maintenace as well as tailored business e-mails. We are able to design applications to your specifications no matter your business. </p>
+                            <p> We are confident that we can meet your requirements and provide a solution that will
+                                 accelerate your performance and maximize your profits.We are able to develop maps,anaylze data,drone consultancy and implementation</p>
                             <ul class="list-arrow">
                                 <li>Olimem Enterprise Solutions takes responsibility.</li>
                                 <li>You work with competent, business-oriented people.</li>
@@ -196,22 +200,51 @@
 
         </div><!-- Main row end -->
     </div><!-- Conatiner end -->
-
+    <div  hidden class="col-md-12" id="agriculture">
+        <h2 class="column-title mrt-0 text-success">GIS AND DRONES  IN AGRICULTURE</h2>
+        <h5>FARM MANAGEMENT</h5>
+        <ul class="list-arrow">
+                                <li>anaylse crops with vegetation indices</li>
+                                <li>create and implement prescription treatment plans</li>
+                                <li>optimize yields with precision agriculture.</li>
+                            </ul>
+                            <h5>RESEARCH AND DEVELOPMENT</h5>                     
+     <ul class="list-arrow">
+                <li> plan and mapout trial plots</li>
+                 <li>get accurate crop from insights</li>
+              <li>remote sensing and image anaylsis</li>
+                </ul>
+                <h5>INSURANCE</h5>
+                <ul class="list-arrow">
+                <li>get comprehensive field anaylsis</li>
+                 <li>identify and quantify damaged or impacted crops</li>
+              <li>create and share reports for claims or findings</li>
+                </ul>
+                <h5>INTERGRATED AGRICULTURE PLATFORMS </h5>
+                <ul class="list-arrow">
+                <li>provide high-end agriculture anaylsis services and automate and integrate your own enterprises</li>
+                 
+                </ul>
+    </div>
     <!-- website design description -->
-    <div  class="col-md-12" id="remote">
+    <div  hidden class="col-md-12" id="remote">
         <h2 class="column-title mrt-0 text-success">REMOTE SENSING</h2>
         <h5><p> Remote sensing is the process of detecting and monitoring the physical 
             characteristics of an area by measuring its reflected and emitted radiation at a 
             distance (typically from satellite or aircraft). Special cameras collect remotely 
-            sensed images, which help researchers "sense" things about the Earth.  some of the  uses of remotes senses are:</p></h5>
+            sensed images, which help researchers "sense" things about the Earth</p>
+        <p> some of the  uses of remotes senses are:</h5></p>
+        <ul class="list-arrow">
+        <li> Analysis and visualization of particular sizes</li>
+                 <li>sustainable planning and development</li>
+              <li>infrastructure safety</li>
+              <li>precision agriculture</li>
 
-        <p><strong>-analysis and visulizations of particular sizes</strong></p>
-        <p><strong>-sustainable planning and development</strong></p>
-        <p><strong>-infrastructure  safety</strong></p>
-        <p><strong>-precision agriculture</strong></p>
+                </ul>
+       
     
     </div>
-    <div  class="col-md-12" id="sales_registration">
+    <div hidden  class="col-md-12" id="sales_registration">
         <h2 class="column-title mrt-0 text-success">DRONE REGISTRATION AND SALES </h2>
         WE SELL GIS EQUIPMENTS AND OFFER DRONE REGISTRATION (consultancy)
     </div>
@@ -238,7 +271,16 @@
             tincidunt nunc posuere ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla commodo
             iaculis ligula, ac dapibus quam ornare ut. Praesent ac hendrerit sem, et tempus sem</p>
     </div>
--->
+--><div hidden class="col-xl-8 col-lg-8">
+<div class="content-inner-page">
+                    <div class="row">
+                        <div class="col-md-12" id="something">
+                            <h2 class="column-title mrt-0 text-success">WHAT IS GIS AND WHAT DO WE OFFER</h2>
+                            <h5><p>G-I-Systems gather, manage & analyze data. We analyze spatial location and organize layers of information into visualizations using maps and 3D scenes revealing patterns, relationships,& situations to users to make smarter decisions. 
+                                We serve the Local Government, Mining, Engineering, Telecomunications, Wildlife & Transport industries. 
+                                We also sell top quality Unmanned Aerial Vehicles (Drones)</p></h5>
+                        </div><!-- col end -->
+                    </div><!-- 1st row end-->
 
     <!-- custom made applications -->
    
@@ -254,6 +296,22 @@
         //document.getElementById("custom_emails_active").className = " ";
         document.getElementById("summary").className = "active";
       }
+      function farming() {
+        var new_t = document.getElementById("agriculture").innerHTML;
+        document.getElementById("about").innerHTML = new_t;
+        document.getElementById("remote_sensing").className = " ";
+        document.getElementById("cartography").className = " ";
+        //document.getElementById("custom_emails_active").className = " ";
+        document.getElementById("drone").className = "active";
+      }
+      function what_is_it() {
+        var new_t = document.getElementById("something").innerHTML;
+        document.getElementById("about").innerHTML = new_t;
+        document.getElementById("remote_sensing").className = " ";
+        document.getElementById("cartography").className = " ";
+        //document.getElementById("custom_emails_active").className = " ";
+        document.getElementById("summary").className = "active";
+      }
     function remote_sensing() {
         var new_t = document.getElementById("remote").innerHTML;
         document.getElementById("about").innerHTML = new_t;
@@ -262,14 +320,13 @@
         //document.getElementById("custom_emails_active").className = " ";
         document.getElementById("sensing").className = "active";
     }
-
     function cartograph_y() {
         var new_t = document.getElementById("cartography").innerHTML;
         document.getElementById("about").innerHTML = new_t;
         document.getElementById("remote_sensing").className = " ";
         document.getElementById("cartography").className = " ";
         //document.getElementById("custom_emails_active").className = " ";
-        document.getElementById("cart").className = "";
+        document.getElementById("cart").className = "active";
     }
     function sales() {
         var new_t = document.getElementById("sales_registration").innerHTML;
@@ -277,9 +334,8 @@
         document.getElementById("remote_sensing").className = " ";
         document.getElementById("cartography").className = " ";
         //document.getElementById("custom_emails_active").className = " ";
-        document.getElementById("register").className = "";
+        document.getElementById("register").className = "active";
     }
-
     /*function customEmails() {
         var new_t = document.getElementById("custom_emails").innerHTML;
         document.getElementById("build").innerHTML = new_t;
@@ -288,9 +344,7 @@
         document.getElementById("web_hosting_active").className = " ";
         document.getElementById("custom_emails_active").className = "active";
     }*/
-
     
-
     
 </script>
 
