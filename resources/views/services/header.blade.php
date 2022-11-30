@@ -104,7 +104,7 @@
                       <li><a href="software-development">Software Development</a></li>
                       <li><a href="#">GIS</a></li>
                       <li><a href="#">Payroll & HR</a></li>
-                      <li><a href="#">IT Support</a></li>
+                      <li><a href="it">IT Support</a></li>
                       <li><a href="#">Reporting</a></li>
                     </ul>
                   </li>
@@ -197,8 +197,9 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Software Development</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">SAGE Pastel</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="software-development">Software Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="it">IT</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Networking</a></li>
             </ul>

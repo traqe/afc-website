@@ -49,10 +49,10 @@
                             </div>
 
                             <div class="quote-item-footer">
-                                <img style="height: 70pt; width: 120%;" loading="lazy" class="testimonial-thumb" src="{{ asset('public') }}/img/services/it-billgates.png" alt="testimonial">
+                                <img style="height: 70pt; width: 120%;" loading="lazy" class="testimonial-thumb" src="{{ asset('public') }}/img/services/it-user.jpg" alt="testimonial">
                                 <div class="quote-item-info">
-                                    <h3 class="quote-author">Bill Gates</h3>
-                                    <span class="quote-subtext">Entrepreneur</span>
+                                    <h3 class="quote-author">Shalimba Mudenda</h3>
+                                    <span class="quote-subtext">IT Consultant</span>
                                 </div>
                             </div>
                         </div><!-- Quote item end -->
@@ -108,26 +108,24 @@
                             <h3 class="column-title-small">What Makes Us Different</h3>
 
                             <p>
-                                <strong>We are staffed with highly trained technicians</strong>
-                                Here are some other traits that make us a great technicians:
+                                <strong>We are a company that:</strong>
                             <ul>
-                                <li>Analytical mindset</li>
-                                <li>Works well on tight deadlines</li>
+                                <li>Has highly trained consultants.</li>
+                                <li>Has an analytical mindset in providing solutions.</li>
+                                <li>Works well on tight deadlines to offer services in due time.</li>
                             </ul>
-                            <strong>Strong culture that’s compatible with your own company: <br></strong>
+                            <strong>We also have a strong culture that’s compatible with your own company: <br></strong>
                             <ul>
-                                <li>Active listening</li>
-                                <li>Low employee turnover</li>
+                                <li>We actively listen to your queries and:</li>
+                                <li>have a low employee turnover.</li>
                             </ul>
-                            <i>"</i> A good culture is not just an individual skill, it’s one that should be reinforced throughout the services desk’s culture <i>"</i>
                             <br>
-                            <strong>To deliver consistent IT support</strong>
+                            <strong>We aim to deliver consistent IT support</strong>
                             <br>
                             As a result, we offer:
                             <ul>
-                                <li>Faster solutions</li>
+                                <li>Convenient solutions to your problem</li>
                                 <li>Smooth ticket escalation</li>
-                                <li>Discover chronic issues</li>
                             </ul>
                             </p>
                         </div>
