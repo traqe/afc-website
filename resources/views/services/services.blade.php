@@ -89,9 +89,9 @@
               <img loading="lazy" src="public/services/images/icon-image/service-icon4.png" alt="service-icon">
             </div>
             <div class="ts-service-info">
-              <h3 class="service-box-title"><a href="service-single.html">IT Support</a></h3>
+              <h3 class="service-box-title"><a href="it">IT Support</a></h3>
               <p>Proactive IT planning, cloud support, a help desk, and other features can transform your business. For companies of all sizes, we provide a comprehensive range of services.</p>
-              <a class="learn-more d-inline-block" href="service-single.html" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
+              <a class="learn-more d-inline-block" href="it" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
             </div>
           </div>
         </div><!-- Service1 end -->

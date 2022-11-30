@@ -42,6 +42,10 @@ Route::get('/software-development', function () {
     return view('services.software-dev');
 });
 
+Route::get('/it', function () {
+    return view('services.it');
+});
+
 Route::get('/sage', function () {
     return view('services.sage');
 });
