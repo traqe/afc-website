@@ -45,3 +45,6 @@ Route::get('/software-development', function () {
 Route::get('/sage', function () {
     return view('services.sage');
 });
+Route::get('/payroll-hr', function () {
+    return view('services.payroll_HR');
+});
