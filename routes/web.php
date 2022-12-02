@@ -1,6 +1,8 @@
 <?php
 
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
+use App\Mail\RequestMail;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,7 +37,16 @@ Route::get('/sage-evolution', function () {
     return view('services.sage');
 });
 
+Route::post('/postEmail', function () {
+    /*$email = request('email');
+    $phone = request('phone');
+    $services = request('services');
+    $comment = request('comment');*/
+    $data = request(['email', 'phone', 'services', 'comment']);
+    Mail::to('spammason18@gmail.com')->send(new RequestMail($data));
 
+    return redirect()->back()->with('flash', 'Request sent successfully');
+});
 
 // route to software-development-service-page
 Route::get('/software-development', function () {

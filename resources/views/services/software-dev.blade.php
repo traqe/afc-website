@@ -197,7 +197,10 @@
                             </div><!-- Col end -->
                             <div class="col-md-4 text-center text-md-right mt-3 mt-md-0">
                                 <div class="call-to-action-btn">
-                                    <a class="btn btn-primary" href="#">Get a Quote</a>
+                                    <!--<a class="btn btn-primary" href="#">Get a Quote</a>-->
+
+                                    <!-- button to open modal of get a quote -->
+                                    <button class="btn btn-primary" id="myBtn">GET A QUOTE</button>
                                 </div>
                             </div><!-- col end -->
                         </div><!-- row end -->
@@ -317,6 +320,42 @@
     </div>
 
 </section><!-- Main container end -->
+
+<!-- modal for get a quote/ get a request
+required fields: select desired services - checkbox to select several services
+                 client contact details - email; phone number
+                 comment fields - to include specifics if possible
+                 
+-->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content justify-contents-centre">
+        <span class="close">&times;</span>
+        <p><strong>REQUEST FOR QUOTE</strong></p>
+        <form action="postEmail" method="POST">
+            @csrf
+            <input type="text" name="email" placeholder="Email">
+            <div class="gap-20"></div>
+            <input type="text" name="phone" placeholder="Phone Number">
+            <div class="gap-20"></div>
+            <fieldset>
+                <legend style="font-size: 15px; font-weight: bold;">Services</legend>
+                <input type="checkbox" name="services[]" value="Sage Evolution ERP"> Sage Evolution ERP</br>
+                <input type="checkbox" name="services[]" value="Software Development"> Software Development</br>
+                <input type="checkbox" name="services[]" value="GIS"> GIS</br>
+                <input type="checkbox" name="services[]" value="Payroll & HR"> Payroll & HR</br>
+                <input type="checkbox" name="services[]" value="IT Support"> IT Support</br>
+                <input type="checkbox" name="services[]" value="Reporting"> Reporting</br>
+            </fieldset>
+            <div class="gap-20"></div>
+            <input type="text" name="comment" placeholder="Comment">
+            <div class="gap-20"></div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+</div>
 
 <script>
     function websiteDesign() {
