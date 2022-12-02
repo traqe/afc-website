@@ -3389,21 +3389,41 @@ label {
     justify-content: center;
 }
 
+.modal input[type="text"] {
+    width: 70%;
+    border: 0.5px solid rgb(3, 160, 74);
+    border-radius: 2px;
+    justify-self: center;
+    height: 35px;
+}
+
 /* Modal Content/Box */
 .modal-content {
-    background-color: #fefefe;
+    background-color: #272d33;
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
-    border: 1px solid #888;
-    width: 50%; /* Could be more or less, depending on screen size */
+    border: 1.5px solid rgb(3, 160, 74);
+    width: 40%; /* Could be more or less, depending on screen size */
     transform: translate(0, -50%);
     top: 20%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 0px;
+    opacity: 0.98;
+    color: white;
+    font-weight: bold;
+}
+
+.modal-content button {
+    background-color: rgb(3, 160, 74);
+}
+
+.modal input[type="checkbox"] {
+    border: 10px solid rgb(3, 160, 74);
 }
 
 /* The Close Button */
 .close {
-    color: rgb(221, 16, 16);
-    padding-left: 95%;
+    color: white;
     font-size: 28px;
     font-weight: bold;
 }
