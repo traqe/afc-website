@@ -6,7 +6,7 @@
           <div class="row">
             <div class="col-lg-12">
                 <div class="banner-heading "hidden>
-                  <h1 class="banner-title">Service</h1>
+                  <h1 class="banner-title">PAYROLL AND HR</h1>
                   <nav aria-label="breadcrumb">
                       <ol class="breadcrumb justify-content-center">
                         <li class="breadcrumb-item "><a href="#">Home</a></li>
