@@ -58,7 +58,7 @@
                   <div class="info-box">
                     <div class="info-box-content">
                       <p class="info-box-title">Call Us</p>
-                      <p class="info-box-subtitle">+263 8644 212346</p>
+                      <p class="info-box-subtitle"> +2638688006972</p>
                     </div>
                   </div>
                 </li>
@@ -177,7 +177,7 @@
             <br>
             <strong>Harare:</strong> <br> +263775902459/ +263775285850 <br>
             <br>
-            <strong>Bulawayo:</strong> <br> +2638644263212346/ +263735842573
+            <strong>Bulawayo:</strong> <br> +2638688006972
             <br>
             <br>
             <strong>Email:</strong> olimembulawayo@gmail.com<br>
@@ -185,7 +185,7 @@
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4 style="color: rgb(3,160,74);">Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
@@ -196,7 +196,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+            <h4 style="color: rgb(3,160,74y);">Our Services</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">SAGE Pastel</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="software-development">Software Development</a></li>
