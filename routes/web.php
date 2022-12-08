@@ -13,12 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+
 Route::get('/', function () {
     return view('index');
-});
-
-Route::get('/home', function () {
-    return view('home');
 });
 
 Route::get('/services', function () {
@@ -31,9 +29,7 @@ Route::get('/shop', function () {
 Route::get('/gis', function () {
     return view('services.gis');
 });
-Route::get('/sage-evolution', function () {
-    return view('services.sage');
-});
+
 
 
 

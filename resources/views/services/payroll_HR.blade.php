@@ -1,6 +1,6 @@
 @extends('services.header')
 @section('content')
-<div id="banner-area" class="banner-area" style="background-image:url(public/services/images/banner/sage.jpg)">
+<div id="banner-area" class="banner-area" style="background-image:url(public/services/images/phr/pay3.webp)">
     <div class="banner-text">
       <div class="container">
           <div class="row">
