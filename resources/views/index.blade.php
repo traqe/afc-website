@@ -10,7 +10,7 @@
                   <h2 class="slide-title" data-animation-in="slideInLeft">19 Years of excellence in</h2>
                   <h3 class="slide-sub-title" data-animation-in="slideInRight">Financial Consultancy</h3>
                   <p data-animation-in="slideInLeft" data-duration-in="1.2">
-                      <a href="services.html" class="slider btn btn-danger">Our Services</a>
+                      <a href="services" class="slider btn btn-danger">Our Services</a>
                       <a href="contact.html" class="slider btn btn-warning border">Contact Now</a>
                   </p>
                 </div>
@@ -259,7 +259,7 @@
                   <img loading="lazy" src="public/services/images/icon-image/service-icon1.png" alt="service-icon">
                 </div>
                 <div class="ts-service-box-info">
-                  <h3 class="service-box-title"><a href="#">Sage Evolution ERP</a></h3>
+                  <h3 class="service-box-title"><a href="sage">Sage Evolution ERP</a></h3>
                   <p>Regain the fundamentals with clever, economical software for large businesses</p>
                 </div>
             </div><!-- Service 1 end -->
@@ -269,7 +269,7 @@
                   <img loading="lazy" src="public/services/images/icon-image/service-icon2.png" alt="service-icon">
                 </div>
                 <div class="ts-service-box-info">
-                  <h3 class="service-box-title"><a href="#">Software Development</a></h3>
+                  <h3 class="service-box-title"><a href="software-development">Software Development</a></h3>
                   <p>We are aware of the diverse software requirements that each organization has thanks to our extensive experience. For this reason, we provide a variety of software development services.</p>
                 </div>
             </div><!-- Service 2 end -->
@@ -296,7 +296,7 @@
                   <img loading="lazy" src="public/services/images/icon-image/service-icon4.png" alt="service-icon">
                 </div>
                 <div class="ts-service-box-info">
-                  <h3 class="service-box-title"><a href="#">IT Support</a></h3>
+                  <h3 class="service-box-title"><a href="it">IT Support</a></h3>
                   <p>Proactive IT planning, cloud support, a help desk, and other features can transform your business. For companies of all sizes, we provide a comprehensive range of services.</p>
                 </div>
             </div><!-- Service 4 end -->
@@ -306,7 +306,7 @@
                   <img loading="lazy" src="public/services/images/icon-image/fact3.png" alt="service-icon">
                 </div>
                 <div class="ts-service-box-info">
-                  <h3 class="service-box-title"><a href="#">Payroll & HR</a></h3>
+                  <h3 class="service-box-title"><a href="payroll-hr">Payroll & HR</a></h3>
                   <p>Your HR leaders may rest easy knowing that all legal obligations are being completed throughout your firm by using our payroll and HR services, which come with guaranteed local compliance.</p>
                 </div>
             </div><!-- Service 5 end -->
@@ -316,7 +316,7 @@
                   <img loading="lazy" src="public/services/images/icon-image/fact2.png" alt="service-icon">
                 </div>
                 <div class="ts-service-box-info">
-                  <h3 class="service-box-title"><a href="#">Reporting</a></h3>
+                  <h3 class="service-box-title"><a href="reporting">Reporting</a></h3>
                   <p>Rich data visualization, such as charts, maps, and sparklines, can be accessed on demand through our Reporting services.</p>
                 </div>
             </div><!-- Service 6 end -->
@@ -456,7 +456,7 @@
   
         <div class="col-12">
           <div class="general-btn text-center">
-            <a class="btn btn-primary" href="projects.html">View All Clients</a>
+            <a class="btn btn-primary" href="#project-area">View All Clients</a>
           </div>
         </div>
   

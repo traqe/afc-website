@@ -9,9 +9,9 @@
             <h1 class="banner-title">Service</h1>
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb justify-content-center">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item"><a href="#">Services</a></li>
-                <li class="breadcrumb-item active" aria-current="page">All Services</li>
+                <li class="breadcrumb-item"><a href="">Home</a></li>
+                <li class="breadcrumb-item"><a href="#ts-service-area">Services</a></li>
+                <li class="breadcrumb-item active" aria-current="services">All Services</li>
               </ol>
             </nav>
           </div>
@@ -35,9 +35,9 @@
               <img loading="lazy" src="public/services/images/icon-image/service-icon1.png" alt="service-icon">
             </div>
             <div class="ts-service-info">
-              <h3 class="service-box-title"><a href="service-single.html">Sage Evolution ERP</a></h3>
+              <h3 class="service-box-title"><a href="sage">Sage Evolution ERP</a></h3>
               <p>Regain the fundamentals with clever, economical software for large businesses</p>
-              <a class="learn-more d-inline-block" href="service-single.html" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
+              <a class="learn-more d-inline-block" href="sage" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
             </div>
           </div>
         </div><!-- Service1 end -->
@@ -71,9 +71,9 @@
               <img loading="lazy" src="public/services/images/icon-image/service-icon3.png" alt="service-icon">
             </div>
             <div class="ts-service-info">
-              <h3 class="service-box-title"><a href="service-single.html">Geographical Information Systems</a></h3>
+              <h3 class="service-box-title"><a href="gis">Geographical Information Systems</a></h3>
               <p>With the use of a well-designed Geographic Information System (GIS), businesses may glean useful information from location-based information, map layers, and 3D modeling.</p>
-              <a class="learn-more d-inline-block" href="service-single.html" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
+              <a class="learn-more d-inline-block" href="gis" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
             </div>
           </div>
         </div><!-- Service3 end -->
@@ -107,9 +107,9 @@
               <img loading="lazy" src="public/services/images/icon-image/fact3.png" alt="service-icon">
             </div>
             <div class="ts-service-info">
-              <h3 class="service-box-title"><a href="service-single.html">Payroll & HR</a></h3>
+              <h3 class="service-box-title"><a href="payroll-hr">Payroll & HR</a></h3>
               <p>Your HR leaders may rest easy knowing that all legal obligations are being completed throughout your firm by using our payroll and HR services, which come with guaranteed local compliance.</p>
-              <a class="learn-more d-inline-block" href="public/services/service-single.html" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
+              <a class="learn-more d-inline-block" href="payroll-hr" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
             </div>
           </div>
         </div><!-- Service2 end -->
@@ -125,9 +125,9 @@
               <img loading="lazy" src="public/services/images/icon-image/fact2.png" alt="service-icon">
             </div>
             <div class="ts-service-info">
-              <h3 class="service-box-title"><a href="service-single.html">Reporting</a></h3>
+              <h3 class="service-box-title"><a href="reporting">Reporting</a></h3>
               <p>Rich data visualization, such as charts, maps, and sparklines, can be accessed on demand through our Reporting services.</p>
-              <a class="learn-more d-inline-block" href="service-single.html" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
+              <a class="learn-more d-inline-block" href="reporting" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
             </div>
           </div>
         </div><!-- Service3 end -->
