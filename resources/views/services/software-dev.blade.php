@@ -197,8 +197,6 @@
                             </div><!-- Col end -->
                             <div class="col-md-4 text-center text-md-right mt-3 mt-md-0">
                                 <div class="call-to-action-btn">
-                                    <!--<a class="btn btn-primary" href="#">Get a Quote</a>-->
-
                                     <!-- button to open modal of get a quote -->
                                     <button class="btn btn-primary" id="myBtn">GET A QUOTE</button>
                                 </div>
@@ -343,9 +341,9 @@ required fields: select desired services - checkbox to select several services
         </div>
         <form action="postEmail" method="POST">
             @csrf
-            <input type="text" name="email" placeholder="Email">
+            <input type="email" name="email" placeholder="Email" required>
             <div class="gap-20"></div>
-            <input type="text" name="phone" placeholder="Phone Number">
+            <input type="text" name="phone" placeholder="Phone Number" required>
             <div class="gap-20"></div>
             <fieldset>
                 <legend style="font-size: 15px; font-weight: bold;">SERVICES</legend>
@@ -377,7 +375,7 @@ required fields: select desired services - checkbox to select several services
                 </div>
             </fieldset>
             <div class="gap-20"></div>
-            <input type="text" name="comment" placeholder="Comment">
+            <input type="text" name="comment" placeholder="Comment" required>
             <div class="gap-20"></div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
