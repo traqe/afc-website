@@ -63,7 +63,7 @@ Route::get('/sage', function () {
 
 Route::get('/reporting', function () {
     return view('services.reporting');
- });  
+});
 Route::get('/payroll-hr', function () {
     return view('services.payroll_HR');
 });

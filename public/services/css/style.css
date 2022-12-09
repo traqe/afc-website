@@ -2462,11 +2462,11 @@ img.testimonial-thumb {
 .copyright {
     background: #03a04a;
     color: #111;
-    padding: 25px 0;
+    padding: 25px;
     position: relative;
     z-index: 1;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .footer-menu ul li {
