@@ -1,6 +1,8 @@
 <?php
 
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
+use App\Mail\RequestMail;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,7 +33,16 @@ Route::get('/gis', function () {
 });
 
 
+Route::post('/postEmail', function () {
+    /*$email = request('email');
+    $phone = request('phone');
+    $services = request('services');
+    $comment = request('comment');*/
+    $data = request(['email', 'phone', 'services', 'comment']);
+    Mail::to('spammason18@gmail.com')->send(new RequestMail($data));
 
+    return redirect()->back()->with('flash', 'Request sent successfully');
+});
 
 // route to software-development-service-page
 Route::get('/software-development', function () {
@@ -48,7 +59,7 @@ Route::get('/sage', function () {
 
 Route::get('/reporting', function () {
     return view('services.reporting');
- });  
+});
 Route::get('/payroll-hr', function () {
     return view('services.payroll_HR');
 });

@@ -127,7 +127,7 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: #000;
+    color: rgb(3, 160, 74);
 }
 
 a.read-more {
@@ -1222,17 +1222,17 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 ================================================== */
 /*-- Main slide --*/
 .banner-carousel .banner-carousel-item {
-
-  height: 600px;
-  color: #03a04a;
-  background-position: 50% 50%;
-  background-size: cover;
+    background: rgba(0, 0, 0, 0.8);
+    height: 600px;
+    color: #03a04a;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-blend-mode: darken;
 }
 @media (max-width: 991px) {
-  .banner-carousel .banner-carousel-item {
-    height: 500px;
-  }
-
+    .banner-carousel .banner-carousel-item {
+        height: 500px;
+    }
 }
 @media (max-width: 575px) {
     .banner-carousel .banner-carousel-item {
@@ -1247,23 +1247,22 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .slide-title-box {
-
-  font-size: 16px;
-  line-height: 39px;
-  background: #d30d0d;
-  color: #03a04a;
-  display: inline-block;
-  padding: 0 15px;
-  margin: 0 0 10px;
+    font-size: 16px;
+    line-height: 39px;
+    background: #d30d0d;
+    color: #03a04a;
+    display: inline-block;
+    padding: 0 15px;
+    margin: 0 0 10px;
 }
 
 .slide-title {
-  font-size: 30px;
-  line-height: 36px;
-  font-weight: 300;
-  color: #03a04a;
-  margin: 20px 0 10px;
-
+    font-size: 25px;
+    line-height: 36px;
+    font-weight: 300;
+    color: #03a04a;
+    margin: 20px 0 10px;
+    font-weight: bold;
 }
 @media (max-width: 991px) {
     .slide-title {
@@ -1277,16 +1276,14 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .slide-sub-title {
-
-  font-style: normal;
-  font-size: 60px;
-  line-height: 58px;
-  margin: 20px 0;
-  color: #03a04a;
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: -1px;
-
+    font-style: normal;
+    font-size: 60px;
+    line-height: 58px;
+    margin: 20px 0;
+    color: #03a04a;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -1px;
 }
 @media (max-width: 991px) {
     .slide-sub-title {
@@ -1301,15 +1298,13 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .slider-text {
-
-  display: table;
-  vertical-align: bottom;
-  color: #03a04a;
-  padding-left: 40%;
-  width: 100%;
-  padding-bottom: 0;
-  padding-top: 20px;
-
+    display: table;
+    vertical-align: bottom;
+    color: #03a04a;
+    padding-left: 40%;
+    width: 100%;
+    padding-bottom: 0;
+    padding-top: 20px;
 }
 
 .slider-text .slide-head {
@@ -1337,6 +1332,8 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 .slider.btn {
     margin: 15px 5px 0;
     border: 2px solid transparent;
+    color: white;
+    font-weight: bold;
 }
 @media (max-width: 575px) {
     .slider.btn {
@@ -2470,11 +2467,11 @@ img.testimonial-thumb {
 .copyright {
     background: #03a04a;
     color: #111;
-    padding: 25px 0;
+    padding: 25px;
     position: relative;
     z-index: 1;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .footer-menu ul li {
@@ -3381,3 +3378,65 @@ label {
     font-weight: 700;
 }
 /*# sourceMappingURL=style.css.map */
+
+/*modal css for get a quote and get request*/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    justify-content: center;
+}
+
+.modal input[type="text"] {
+    width: 70%;
+    border: 0.5px solid rgb(3, 160, 74);
+    border-radius: 2px;
+    justify-self: center;
+    height: 35px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #272d33;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1.5px solid rgb(3, 160, 74);
+    width: 40%; /* Could be more or less, depending on screen size */
+    transform: translate(0, -50%);
+    top: 20%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 0px;
+    opacity: 0.98;
+    color: white;
+    font-weight: bold;
+}
+
+.modal-content button {
+    background-color: rgb(3, 160, 74);
+}
+
+.modal input[type="checkbox"] {
+    border: 10px solid rgb(3, 160, 74);
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(3, 160, 74);
+    text-decoration: none;
+    cursor: pointer;
+}
+/* -- end modal styling -- */

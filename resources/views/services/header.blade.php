@@ -58,7 +58,7 @@
                   <div class="info-box">
                     <div class="info-box-content">
                       <p class="info-box-title">Call Us</p>
-                      <p class="info-box-subtitle">+263 8644 212346</p>
+                      <p class="info-box-subtitle"> +2638688006972</p>
                     </div>
                   </div>
                 </li>
@@ -72,7 +72,8 @@
                 </li>
 
                 <li class="header-get-a-quote">
-                  <a class="btn btn-success" href="contact.html">Request a Qoute</a>
+                  <!-- button to open modal of get a quote -->
+                  <button class="btn btn-primary" id="myBtnHeader">Request a Qoute</button>
                 </li>
               </ul><!-- Ul end -->
             </div><!-- header right end -->
@@ -178,7 +179,7 @@
             <br>
             <strong>Harare:</strong> <br> +263775902459/ +263775285850 <br>
             <br>
-            <strong>Bulawayo:</strong> <br> +2638644263212346/ +263735842573
+            <strong>Bulawayo:</strong> <br> +2638688006972
             <br>
             <br>
             <strong>Email:</strong> olimembulawayo@gmail.com<br>
@@ -186,7 +187,7 @@
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4 style="color: rgb(3, 160, 74);">Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#ts-features">About us</a></li>
@@ -197,7 +198,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+            <h4 style="color: rgb(3, 160, 74);">Our Services</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="sage">SAGE Pastel</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="software-development">Software Development</a></li>
@@ -262,5 +263,67 @@
 
   </div><!-- Body inner end -->
 </body>
+
+<!-- modal for get a quote/ get a request
+required fields: select desired services - checkbox to select several services
+                 client contact details - email; phone number
+                 comment fields - to include specifics if possible
+                 
+-->
+<div id="myModalHeader" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content justify-contents-centre">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-10">
+          <p><strong>REQUEST FOR QUOTE</strong></p>
+        </div>
+        <div class="col-sm-2">
+          <span class="closeHeader close">&times;</span>
+        </div>
+      </div>
+    </div>
+    <form action="postEmail" method="POST">
+      @csrf
+      <input type="email" name="email" placeholder="Email" required>
+      <div class="gap-20"></div>
+      <input type="text" name="phone" placeholder="Phone Number" required>
+      <div class="gap-20"></div>
+      <fieldset>
+        <legend style="font-size: 15px; font-weight: bold;">SERVICES</legend>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <input type="checkbox" name="services[]" value="Sage Evolution ERP"> Sage Evolution ERP</br>
+            </div>
+            <div class="col-sm-6">
+              <input type="checkbox" name="services[]" value="Software Development"> Software Development</br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <input type="checkbox" name="services[]" value="Sage Evolution ERP"> GIS</br>
+            </div>
+            <div class="col-sm-6">
+              <input type="checkbox" name="services[]" value="Software Development"> HR & Payroll</br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <input type="checkbox" name="services[]" value="Sage Evolution ERP"> IT Support</br>
+            </div>
+            <div class="col-sm-6">
+              <input type="checkbox" name="services[]" value="Software Development"> Reporting</br>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <div class="gap-20"></div>
+      <input type="text" name="comment" placeholder="Comment" required>
+      <div class="gap-20"></div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
 
 </html>
