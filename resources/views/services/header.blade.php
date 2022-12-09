@@ -94,23 +94,25 @@
 
               <div id="navbar-collapse" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav mr-auto">
-                  <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="">Home</a></li>
 
-                  <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#ts-features">About</a></li>
 
                   <li class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Services <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown-menu" role="menu">
-                      <li><a href="#">Sage Evolution ERP</a></li>
+                      <li><a href="services">SERVICES ALL</a></li>
+                      <li><a href="sage">Sage Evolution ERP</a></li>
+
                       <li><a href="software-development">Software Development</a></li>
-                      <li><a href="#">GIS</a></li>
-                      <li><a href="#">Payroll & HR</a></li>
+                      <li><a href="gis">GIS</a></li>
+                      <li><a href="payroll-hr">Payroll & HR</a></li>
                       <li><a href="it">IT Support</a></li>
-                      <li><a href="#">Reporting</a></li>
+                      <li><a href="reporting">Reporting</a></li>
                     </ul>
                   </li>
-                  <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                  <li class="nav-item"><a class="nav-link" href="contact.html">Shop</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
+                  <li class="nav-item"><a class="nav-link" href="shop">Shop</a></li>
                 </ul>
               </div>
             </nav>
@@ -187,10 +189,10 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4 style="color: rgb(3, 160, 74);">Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#ts-features">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="services">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="services">Terms of service</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
             </ul>
           </div>
@@ -198,11 +200,12 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4 style="color: rgb(3, 160, 74);">Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">SAGE Pastel</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="sage">SAGE Pastel</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="software-development">Software Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="it">IT</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Networking</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="it">Information technology</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="gis">GIS </a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="reporting">REPORTING</a></li>
+
             </ul>
           </div>
 

@@ -337,9 +337,6 @@
         <h2 class="section-title">Work of Excellence</h2>
         <h3 class="section-sub-title">Recent Clients</h3>
       </div>
-    </div>
-    <!--/ Title row end -->
-
     <div class="row">
       <div class="col-12">
         <div class="shuffle-btn-group">
@@ -452,14 +449,15 @@
                   <p class="project-cat">Residential</p>
                 </div>
               </div>
-            </div>
-          </div><!-- shuffle item 6 end -->
-        </div><!-- shuffle end -->
-      </div>
 
-      <div class="col-12">
-        <div class="general-btn text-center">
-          <a class="btn btn-primary" href="projects.html">View All Clients</a>
+            </div><!-- shuffle item 6 end -->
+          </div><!-- shuffle end -->
+        </div>
+  
+        <div class="col-12">
+          <div class="general-btn text-center">
+            <a class="btn btn-primary" href="#project-area">View All Clients</a>
+          </div>
         </div>
       </div>
 

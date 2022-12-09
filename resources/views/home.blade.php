@@ -130,7 +130,7 @@
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
           <div class="icon-box">
             <div class="icon"><i class="bx bxl-dribbble"></i></div>
-            <h4><a href="">SAGE Accounting Solutions</a></h4>
+            <h4><a href="sage">SAGE Accounting Solutions</a></h4>
             <p>Trusted SAGE consultants</p>
           </div>
         </div>
@@ -138,7 +138,7 @@
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-file"></i></div>
-            <h4><a href="">Software Development Services</a></h4>
+            <h4><a href="software-development">Software Development Services</a></h4>
             <p>Custom Business Systems</p>
           </div>
         </div>
@@ -146,7 +146,7 @@
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-tachometer"></i></div>
-            <h4><a href="">Geographical Information Systems</a></h4>
+            <h4><a href="gis">Geographical Information Systems</a></h4>
             <p>Implementation and Training</p>
           </div>
         </div>
@@ -161,7 +161,7 @@
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-world"></i></div>
-            <h4><a href="">Technical Support Services</a></h4>
+            <h4><a href="it">Technical Support Services</a></h4>
             <p>Implementation and Training designed to equip stakeholders with first class GIS operation expertise. We also sell GIS related hardware</p>
           </div>
         </div>

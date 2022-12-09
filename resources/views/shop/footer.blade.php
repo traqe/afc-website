@@ -47,9 +47,9 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.#ts-features">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="services">Services</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
             </ul>
@@ -58,10 +58,14 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Software Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">SAGE Pastel</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Networking</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="software-development">Software Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="sage">SAGE Pastel</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="payroll-hr">payroll-hr</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="it">IT</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="gis">GIS</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="reporting">reporting</a></li>
+
+
             </ul>
           </div>
 
