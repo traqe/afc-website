@@ -1222,10 +1222,12 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 ================================================== */
 /*-- Main slide --*/
 .banner-carousel .banner-carousel-item {
+    background: rgba(0, 0, 0, 0.8);
     height: 600px;
     color: #03a04a;
     background-position: 50% 50%;
     background-size: cover;
+    background-blend-mode: darken;
 }
 @media (max-width: 991px) {
     .banner-carousel .banner-carousel-item {
@@ -1255,11 +1257,12 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .slide-title {
-    font-size: 30px;
+    font-size: 25px;
     line-height: 36px;
     font-weight: 300;
     color: #03a04a;
     margin: 20px 0 10px;
+    font-weight: bold;
 }
 @media (max-width: 991px) {
     .slide-title {
@@ -1329,6 +1332,8 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 .slider.btn {
     margin: 15px 5px 0;
     border: 2px solid transparent;
+    color: white;
+    font-weight: bold;
 }
 @media (max-width: 575px) {
     .slider.btn {

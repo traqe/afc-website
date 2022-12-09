@@ -1,6 +1,7 @@
 @extends('services.header')
 @section('content')
 
+
 <div class="banner-carousel banner-carousel-1 mb-0">
   <div class="banner-carousel-item" style="background-image:url(public/services/images/slider-main/finance.jpg)">
     <div class="slider-content">
@@ -10,7 +11,7 @@
             <h2 class="slide-title" data-animation-in="slideInLeft">19 Years of excellence in</h2>
             <h3 class="slide-sub-title" data-animation-in="slideInRight">Financial Consultancy</h3>
             <p data-animation-in="slideInLeft" data-duration-in="1.2">
-              <a href="services.html" class="slider btn btn-danger">Our Services</a>
+              <a href="services.html" class="slider btn btn-danger border">Our Services</a>
               <a href="contact.html" class="slider btn btn-warning border">Contact Now</a>
             </p>
           </div>
@@ -53,6 +54,7 @@
     </div>
   </div>
 </div>
+
 
 <section class="call-to-action-box no-padding">
   <div class="container">
