@@ -47,7 +47,7 @@
         <div class="logo-area">
           <div class="row align-items-center">
             <div class="logo col-lg-3 text-center text-lg-left mb-3 mb-md-5 mb-lg-0">
-              <a class="d-block" href="index.html">
+              <a class="d-block" href="/olimem.com">
                 <img loading="lazy" src="public/services/images/logo.png" alt="Olimem">
               </a>
             </div><!-- logo end -->
@@ -94,7 +94,7 @@
 
               <div id="navbar-collapse" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav mr-auto">
-                  <li class="nav-item"><a class="nav-link" href="">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/olimem.com">Home</a></li>
 
                   <li class="nav-item"><a class="nav-link" href="#ts-features">About</a></li>
 
@@ -189,7 +189,7 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4 style="color: rgb(3, 160, 74);">Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/olimem.com">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#ts-features">About us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="services">Services</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="services">Terms of service</a></li>
