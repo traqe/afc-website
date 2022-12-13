@@ -20,7 +20,7 @@
                     <p>
                       HP has a fantastic selection of laptops from which to choose.
                     </p>
-                    <a href="">
+                    <a href="#">
                       Browse More
                     </a>
                   </div>
@@ -203,7 +203,7 @@
               <img src="{{ asset('public/shop') }}/images/all.jpeg" alt="">
               <a href="" class="add_cart_btn">
                 <span>
-                  Add To Cart
+                  Shop
                 </span>
               </a>
             </div>
@@ -212,9 +212,9 @@
                 Desktop PCs
               </h5>
               <div class="product_info">
-                <h5>
+                <!--<h5>
                   <span>$</span> 300
-                </h5>
+                </h5>-->
                 <div class="star_container">
                   <i class="fa fa-star" aria-hidden="true"></i>
                   <i class="fa fa-star" aria-hidden="true"></i>
@@ -233,7 +233,7 @@
               <img src="{{ asset('public/shop') }}/images/drive.jpg" alt="">
               <a href="" class="add_cart_btn">
                 <span>
-                  Add To Cart
+                  Shop
                 </span>
               </a>
             </div>
@@ -242,9 +242,9 @@
                 Storage Drives
               </h5>
               <div class="product_info">
-                <h5>
+                <!--<h5>
                   <span>$</span> 300
-                </h5>
+                </h5>-->
                 <div class="star_container">
                   <i class="fa fa-star" aria-hidden="true"></i>
                   <i class="fa fa-star" aria-hidden="true"></i>
@@ -262,7 +262,7 @@
               <img src="{{ asset('public/shop') }}/images/combo.jpg" alt="">
               <a href="" class="add_cart_btn">
                 <span>
-                  Add To Cart
+                  Shop
                 </span>
               </a>
             </div>
@@ -271,9 +271,9 @@
                 Keyboard Mouse Combo
               </h5>
               <div class="product_info">
-                <h5>
+                <!--<h5>
                   <span>$</span> 300
-                </h5>
+                </h5>-->
                 <div class="star_container">
                   <i class="fa fa-star" aria-hidden="true"></i>
                   <i class="fa fa-star" aria-hidden="true"></i>
@@ -291,7 +291,7 @@
               <img src="{{ asset('public/shop') }}/images/ram.jpg" alt="">
               <a href="" class="add_cart_btn">
                 <span>
-                  Add To Cart
+                  Shop
                 </span>
               </a>
             </div>
@@ -300,9 +300,9 @@
                 PC Ram
               </h5>
               <div class="product_info">
-                <h5>
+                <!--<h5>
                   <span>$</span> 300
-                </h5>
+                </h5>-->
                 <div class="star_container">
                   <i class="fa fa-star" aria-hidden="true"></i>
                   <i class="fa fa-star" aria-hidden="true"></i>
@@ -320,7 +320,7 @@
               <img src="{{ asset('public/shop') }}/images/stationery.png" alt="">
               <a href="" class="add_cart_btn">
                 <span>
-                  Add To Cart
+                  Shop
                 </span>
               </a>
             </div>
@@ -329,9 +329,9 @@
                 Stationery
               </h5>
               <div class="product_info">
-                <h5>
+                <!--<h5>
                   <span>$</span> 300
-                </h5>
+                </h5>-->
                 <div class="star_container">
                   <i class="fa fa-star" aria-hidden="true"></i>
                   <i class="fa fa-star" aria-hidden="true"></i>
@@ -349,7 +349,7 @@
               <img src="{{ asset('public/shop') }}/images/p9.png" alt="">
               <a href="" class="add_cart_btn">
                 <span>
-                  Add To Cart
+                  Shop
                 </span>
               </a>
             </div>
@@ -358,9 +358,9 @@
                 Web Cams
               </h5>
               <div class="product_info">
-                <h5>
+                <!--<h5>
                   <span>$</span> 300
-                </h5>
+                </h5>-->
                 <div class="star_container">
                   <i class="fa fa-star" aria-hidden="true"></i>
                   <i class="fa fa-star" aria-hidden="true"></i>
@@ -396,8 +396,8 @@
               </h2>
             </div>
             <p>
-              Totam architecto rem beatae veniam, cum officiis adipisci soluta perspiciatis ipsa, expedita maiores quae accusantium. Animi veniam aperiam, necessitatibus mollitia ipsum id optio ipsa odio ab facilis sit labore officia!
-              Repellat expedita, deserunt eum soluta rem culpa. Aut, necessitatibus cumque. Voluptas consequuntur vitae aperiam animi sint earum, ex unde cupiditate, molestias dolore quos quas possimus eveniet facilis magnam? Vero, dicta.
+              Every company must be a digital organization that is data-driven, operating in a multi-cloud environment, and capable of utilizing technologies like artificial intelligence, machine learning, the Internet of Things, edge computing, and more.
+              To assist your business in transforming and thriving, look to us for IT infrastructure and workload solutions that may be provided on-demand, as a service.
             </p>
             <a href="">
               Read More
@@ -435,9 +435,6 @@
               <h5>
                 Fast Delivery
               </h5>
-              <p>
-                variations of passages of Lorem Ipsum available
-              </p>
             </div>
           </div>
         </div>
@@ -448,11 +445,8 @@
             </div>
             <div class="detail-box">
               <h5>
-                Free Shiping
+                Relaible Shiping
               </h5>
-              <p>
-                variations of passages of Lorem Ipsum available
-              </p>
             </div>
           </div>
         </div>
@@ -465,9 +459,6 @@
               <h5>
                 Best Quality
               </h5>
-              <p>
-                variations of passages of Lorem Ipsum available
-              </p>
             </div>
           </div>
         </div>

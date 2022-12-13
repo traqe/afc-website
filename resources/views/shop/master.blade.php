@@ -103,13 +103,13 @@
                 <a href="">
                   <i class="fa fa-phone" aria-hidden="true"></i>
                   <span>
-                    Call : +2638644263212346
+                    Call : +2638688006970/3
                   </span>
                 </a>
                 <a href="">
                   <i class="fa fa-envelope" aria-hidden="true"></i>
                   <span>
-                Email :olimemmarketing@gmail.com
+                Email :marketing@olimement.com
                   </span>
                 </a>
               </div>
