@@ -40,7 +40,7 @@
             <strong>Bulawayo:</strong> <br> +2638644263212346/ +263735842573
             <br>
             <br>
-            <strong>Email:</strong> olimembulawayo@gmail.com<br>
+            <strong>Email:</strong> marketing@olimement.com<br>
             </p>
           </div>
 
