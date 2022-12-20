@@ -387,10 +387,10 @@
             </div>
           </div><!-- shuffle item 2 end -->
 
-          <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;commercial&quot;]">
+          <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;government&quot;]">
             <div class="project-img-container">
-              <a class="gallery-popup" href="images/projects/project3.jpg" aria-label="project-img">
-                <img class="img-fluid" src="images/projects/project3.jpg" alt="project-img">
+              <a class="gallery-popup" href="public/services/images/projects/portfolio-3.jpg" aria-label="project-img">
+                <img class="img-fluid" src="public/services/images/projects/portfolio-3.jpg" alt="project-img">
                 <span class="gallery-icon"><i class="fa fa-plus"></i></span>
               </a>
               <div class="project-item-info">
@@ -406,8 +406,8 @@
 
           <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;education&quot;,&quot;infrastructure&quot;]">
             <div class="project-img-container">
-              <a class="gallery-popup" href="images/projects/project4.jpg" aria-label="project-img">
-                <img class="img-fluid" src="images/projects/project4.jpg" alt="project-img">
+              <a class="gallery-popup" href="public/services/images/projects/portfolio-10.jpg" aria-label="project-img">
+                <img class="img-fluid" src="public/services/images/projects/portfolio-10.jpg" alt="project-img">
                 <span class="gallery-icon"><i class="fa fa-plus"></i></span>
               </a>
               <div class="project-item-info">
@@ -423,8 +423,8 @@
 
           <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;education&quot;]">
             <div class="project-img-container">
-              <a class="gallery-popup" href="images/projects/project5.jpg" aria-label="project-img">
-                <img class="img-fluid" src="images/projects/project5.jpg" alt="project-img">
+              <a class="gallery-popup" href="public/services/images/projects/portfolio-5.jpg" aria-label="project-img">
+                <img class="img-fluid" src="public/services/images/projects/portfolio-5.jpg" alt="project-img">
                 <span class="gallery-icon"><i class="fa fa-plus"></i></span>
               </a>
               <div class="project-item-info">
@@ -440,8 +440,8 @@
 
           <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;residential&quot;]">
             <div class="project-img-container">
-              <a class="gallery-popup" href="images/projects/project6.jpg" aria-label="project-img">
-                <img class="img-fluid" src="images/projects/project6.jpg" alt="project-img">
+              <a class="gallery-popup" href="public/services/images/projects/portfolio-6.jpg" aria-label="project-img">
+                <img class="img-fluid" src="public/services/images/projects/portfolio-6.jpg" alt="project-img">
                 <span class="gallery-icon"><i class="fa fa-plus"></i></span>
               </a>
               <div class="project-item-info">
