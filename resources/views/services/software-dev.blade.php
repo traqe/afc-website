@@ -1,4 +1,4 @@
-@extends('services.header')
+@extends('header')
 
 @section('content')
 
@@ -323,7 +323,7 @@
 required fields: select desired services - checkbox to select several services
                  client contact details - email; phone number
                  comment fields - to include specifics if possible
-                 
+
 -->
 <div id="myModal" class="modal">
 

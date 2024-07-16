@@ -1,4 +1,4 @@
-@extends('services.header')
+@extends('header')
 @section('content')
 <div id="banner-area" class="banner-area" style="background-image:url(public/services/images/banner/banner4.jpg)">
   <div class="banner-text">

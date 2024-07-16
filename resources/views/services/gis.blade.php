@@ -1,4 +1,4 @@
-@extends('services.header')
+@extends('header')
 
 @section('content')
 

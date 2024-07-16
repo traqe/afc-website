@@ -1,4 +1,4 @@
-@extends('services.header')
+@extends('header')
 @section('content')
 
 <div id="banner-area" class="banner-area" style="background-image:url(public/services/images/phr/pay3.webp)">
@@ -20,7 +20,7 @@
           </div><!-- Row end -->
       </div><!-- Container end -->
     </div><!-- Banner text end -->
-  </div><!-- Banner area end --> 
+  </div><!-- Banner area end -->
 </div>
   <section id="main-container" class="main-container">
 

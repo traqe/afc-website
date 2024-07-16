@@ -732,7 +732,7 @@ ul.navbar-nav > li.active > a {
 /*-- Logo --*/
 .logo img {
     width: auto;
-    height: 85px;
+    height: 90px;
 }
 
 .header-two .logo img {
@@ -1650,6 +1650,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 ================================================== */
 .facts-wrapper {
     text-align: center;
+    justify-content: center;
 }
 
 .facts-wrapper .ts-facts {
@@ -1725,7 +1726,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
     color: #fff;
 }
 
-/* Service box 
+/* Service box
 
 .ts-service-box .ts-service-icon i {
   font-size: 24px;
