@@ -39,7 +39,7 @@ Route::post('/postEmail', function () {
     $services = request('services');
     $comment = request('comment');*/
     $data = request(['email', 'phone', 'services', 'comment']);
-    Mail::to('spammason18@gmail.com')->send(new RequestMail($data));
+    Mail::to('tnrwatida@gmail.com')->send(new RequestMail($data));
 
     return redirect()->back()->with('flash', 'Request sent successfully');
 });

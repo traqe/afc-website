@@ -3,16 +3,16 @@
 
 
 <div class="banner-carousel banner-carousel-1 mb-0">
-  <div class="banner-carousel-item" style="background-image:url(public/services/images/slider-main/finance.jpg)">
+  <div class="banner-carousel-item" style="background-image:url(public/services/images/slider-main/canopy-slide.jpeg)">
     <div class="slider-content">
       <div class="container h-100">
         <div class="row align-items-center h-100">
           <div class="col-md-12 text-center">
-            <h2 class="slide-title" data-animation-in="slideInLeft">19 Years of excellence in</h2>
-            <h3 class="slide-sub-title" data-animation-in="slideInRight">Financial Consultancy</h3>
+            <h2 class="slide-title" data-animation-in="slideInLeft">Years OF EXCELLENCE</h2>
+            <h3 class="slide-sub-title" data-animation-in="slideInRight">Canopy Fitting</h3>
             <p data-animation-in="slideInLeft" data-duration-in="1.2">
-              <a href="services.html" class="slider btn btn-danger border">Our Services</a>
-              <a href="contact.html" class="slider btn btn-warning border">Contact Now</a>
+              <a href="/afc/services" class="slider btn btn-danger border">Our Services</a>
+              <a href="#footer" class="slider btn btn-warning border">Contact Now</a>
             </p>
           </div>
         </div>
@@ -20,16 +20,16 @@
     </div>
   </div>
 
-  <div class="banner-carousel-item" style="background-image:url(public/services/images/slider-main/solutions.jpg)">
+  <div class="banner-carousel-item" style="background-image:url(public/services/images/slider-main/rubberizing.jpeg)">
     <div class="slider-content text-left">
       <div class="container h-100">
         <div class="row align-items-center h-100">
           <div class="col-md-12">
-            <h2 class="slide-title-box" data-animation-in="slideInDown">IT solutions</h2>
-            <h3 class="slide-title" data-animation-in="fadeIn">Hardware & Software</h3>
-            <h3 class="slide-sub-title" data-animation-in="slideInLeft">Top Grade Technology</h3>
+            <h2 class="slide-title-box" data-animation-in="slideInDown">Rubberizing</h2>
+            <h3 class="slide-title" data-animation-in="fadeIn">Experience AFC's</h3>
+            <h3 class="slide-sub-title" data-animation-in="slideInLeft">Top Grade Rubberizing</h3>
             <p data-animation-in="slideInRight">
-              <a href="services.html" class="slider btn btn-danger border">Our Services</a>
+              <a href="/afc/services" class="slider btn btn-danger border">Our Services</a>
             </p>
           </div>
         </div>
@@ -37,17 +37,51 @@
     </div>
   </div>
 
-  <div class="banner-carousel-item" style="background-image:url(public/services/images/slider-main/team.jpg)">
+  <div class="banner-carousel-item" style="background-image:url(public/services/images/slider-main/accessories.jpg)">
     <div class="slider-content text-right">
       <div class="container h-100">
         <div class="row align-items-center h-100">
           <div class="col-md-12">
-            <h2 class="slide-title" data-animation-in="slideInDown">Professional Consultants</h2>
-            <h3 class="slide-sub-title" data-animation-in="fadeIn">We Are Results Oriented</h3>
-            <p class="slider-description lead" data-animation-in="slideInRight">Expert Advice To Businesses And Organisations.</p>
+            <h2 class="slide-title" data-animation-in="slideInDown">Effective</h2>
+            <h3 class="slide-sub-title" data-animation-in="fadeIn">Car Accessories</h3>
+            <p class="slider-description lead" data-animation-in="slideInRight">For All Requirements For Your Car</p>
             <div data-animation-in="slideInLeft">
               <a href="about.html" class="slider btn btn-primary border" aria-label="learn-more-about-us">Learn more</a>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="banner-carousel-item" style="background-image:url(public/services/images/slider-main/vehicle-security.jpg)">
+    <div class="slider-content text-right">
+      <div class="container h-100">
+        <div class="row align-items-center h-100">
+          <div class="col-md-12">
+            <h2 class="slide-title" data-animation-in="slideInDown">High Quality</h2>
+            <h3 class="slide-sub-title" data-animation-in="fadeIn">Car Entertainment</h3>
+            <p class="slider-description lead" data-animation-in="slideInRight">For You To Enjoy The Ride</p>
+            <div data-animation-in="slideInLeft">
+              <a href="about.html" class="slider btn btn-primary border" aria-label="learn-more-about-us">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="banner-carousel-item" style="background-image:url(public/services/images/slider-main/vehicle-protection.jpg)">
+    <div class="slider-content text-left">
+      <div class="container h-100">
+        <div class="row align-items-center h-100">
+          <div class="col-md-12">
+            <h2 class="slide-title-box" data-animation-in="slideInDown">Security</h2>
+            <h3 class="slide-title" data-animation-in="fadeIn">Reliable & Top Notch</h3>
+            <h3 class="slide-sub-title" data-animation-in="slideInLeft">Car Security</h3>
+            <p data-animation-in="slideInRight">
+              <a href="services.html" class="slider btn btn-danger border">Our Services</a>
+            </p>
           </div>
         </div>
       </div>
@@ -242,7 +276,7 @@
       <div class="col-lg-4">
         <div class="ts-service-box d-flex">
           <div class="ts-service-box-img">
-            <img loading="lazy" src="public/services/images/icon-image/service-icon1.png" alt="service-icon">
+            <img loading="lazy" src="public/services/images/icon-image/canopies.png" alt="service-icon">
           </div>
           <div class="ts-service-box-info">
             <h3 class="service-box-title"><a href="#">Canopies</a></h3>
@@ -252,7 +286,7 @@
 
         <div class="ts-service-box d-flex">
           <div class="ts-service-box-img">
-            <img loading="lazy" src="public/services/images/icon-image/service-icon2.png" alt="service-icon">
+            <img loading="lazy" src="public/services/images/icon-image/rubberizing.png" alt="service-icon">
           </div>
           <div class="ts-service-box-info">
             <h3 class="service-box-title"><a href="#">Rubberizing</a></h3>
@@ -262,7 +296,7 @@
 
         <div class="ts-service-box d-flex">
           <div class="ts-service-box-img">
-            <img loading="lazy" src="public/services/images/icon-image/service-icon3.png" alt="service-icon">
+            <img loading="lazy" src="public/services/images/icon-image/accessories.png" alt="service-icon">
           </div>
           <div class="ts-service-box-info">
             <h3 class="service-box-title"><a href="gis">Vehicle Accessories</a></h3>
@@ -279,7 +313,7 @@
       <div class="col-lg-4 mt-5 mt-lg-0 mb-4 mb-lg-0">
         <div class="ts-service-box d-flex">
           <div class="ts-service-box-img">
-            <img loading="lazy" src="public/services/images/icon-image/service-icon4.png" alt="service-icon">
+            <img loading="lazy" src="public/services/images/icon-image/entertainment.png" alt="service-icon">
           </div>
           <div class="ts-service-box-info">
             <h3 class="service-box-title"><a href="#">Vehicle Entertainment</a></h3>
@@ -289,7 +323,7 @@
 
         <div class="ts-service-box d-flex">
           <div class="ts-service-box-img">
-            <img loading="lazy" src="public/services/images/icon-image/fact3.png" alt="service-icon">
+            <img loading="lazy" src="public/services/images/icon-image/protection.png" alt="service-icon">
           </div>
           <div class="ts-service-box-info">
             <h3 class="service-box-title"><a href="#">Vehicle Protection</a></h3>
@@ -299,7 +333,7 @@
 
         <div class="ts-service-box d-flex">
           <div class="ts-service-box-img">
-            <img loading="lazy" src="public/services/images/icon-image/fact2.png" alt="service-icon">
+            <img loading="lazy" src="public/services/images/icon-image/security.png" alt="service-icon">
           </div>
           <div class="ts-service-box-info">
             <h3 class="service-box-title"><a href="#">Vehicle Security</a></h3>
@@ -319,7 +353,7 @@
       <div class="col-lg-12">
         <h2 class="section-title">Work of Excellence</h2>
         <div class="row" style="justify-content: center">
-            <h3 class="section-sub-title">Products <h3 class="section-sub-title" style="color: purple"> <div style="width: 55px"></div> & <div style="width: 55px"></div> </h3> <h3 class="section-sub-title"> Services</h3>
+            <h3 class="section-sub-title">Products <h3 class="section-sub-title" style="color: rgb(64,64,180)"> <div style="width: 55px"></div> & <div style="width: 55px"></div> </h3> <h3 class="section-sub-title"> Services</h3>
         </div>
       </div>
     </div>
@@ -351,7 +385,7 @@
                   <h3 class="project-item-title">
                     <a href="projects-single.html">Canopies</a>
                   </h3>
-                  <p class="project-cat">Government</p>
+                  <p class="project-cat">Canopy</p>
                 </div>
               </div>
             </div>
@@ -368,7 +402,7 @@
                   <h3 class="project-item-title">
                     <a href="projects-single.html">Rubberizing</a>
                   </h3>
-                  <p class="project-cat">Government</p>
+                  <p class="project-cat">Rubber</p>
                 </div>
               </div>
             </div>
@@ -385,7 +419,7 @@
                   <h3 class="project-item-title">
                     <a href="projects-single.html">Vehicle Accessories</a>
                   </h3>
-                  <p class="project-cat">Government</p>
+                  <p class="project-cat">Accessories</p>
                 </div>
               </div>
             </div>
@@ -402,7 +436,7 @@
                   <h3 class="project-item-title">
                     <a href="projects-single.html">Vehicle Entertainment</a>
                   </h3>
-                  <p class="project-cat">Infrastructure</p>
+                  <p class="project-cat">Entertainment</p>
                 </div>
               </div>
             </div>
@@ -419,7 +453,7 @@
                   <h3 class="project-item-title">
                     <a href="projects-single.html">Vehicle Protection</a>
                   </h3>
-                  <p class="project-cat">Infrastructure</p>
+                  <p class="project-cat">Protection</p>
                 </div>
               </div>
             </div>
@@ -436,7 +470,7 @@
                   <h3 class="project-item-title">
                     <a href="projects-single.html">Vehicle Security</a>
                   </h3>
-                  <p class="project-cat">Residential</p>
+                  <p class="project-cat">Security</p>
                 </div>
               </div>
             </div>

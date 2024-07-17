@@ -148,7 +148,7 @@
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
               <!-- <h3>Gp<span>.</span></h3> -->
-              <h4 style="color: rgb(3, 160, 74);">ADDRESS</h4>
+              <h4 style="color: rgb(64,64,200);">ADDRESS</h4>
               <p>
                 100 McChlery Ave <br>
                 Eastlea <br>
@@ -169,17 +169,17 @@
           </div>
 
           <div class="col-lg-3 col-md-8">
-            <h4 style="color: rgb(3, 160, 74);">PHONE</h4>
+            <h4 style="color: rgb(32, 32, 170);">PHONE</h4>
             +263 4 746892/3 <br>
             +263 8644 0759 25/6
             <br>
             <br>
-            <h4 style="color: rgb(3, 160, 74);">EMAIL</h4>
+            <h4 style="color: rgb(64,64,200);">EMAIL</h4>
             <p>[afc-email]</p>
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4 style="color: rgb(3, 160, 74);">Useful Links</h4>
+            <h4 style="color: rgb(64,64,200);">Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="/afc">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#ts-features">About us</a></li>
@@ -189,7 +189,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4 style="color: rgb(3, 160, 74);">OUR SERVICES</h4>
+            <h4 style="color: rgb(64,64,200);">OUR SERVICES</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="sage">Canopies</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="software-development">Rubberizing</a></li>
