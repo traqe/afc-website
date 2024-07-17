@@ -10,9 +10,9 @@
                         <h1 class="banner-title">CANOPIES</h1>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb justify-content-center">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">Services</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">All Services</li>
+                                <li class="breadcrumb-item"><a href="/afc">Home</a></li>
+                                <li class="breadcrumb-item"><a href="/afc/services">Services</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">CANOPIES</li>
                             </ol>
                         </nav>
                     </div>
