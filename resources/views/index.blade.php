@@ -279,7 +279,7 @@
             <img loading="lazy" src="public/services/images/icon-image/canopies.png" alt="service-icon">
           </div>
           <div class="ts-service-box-info">
-            <h3 class="service-box-title"><a href="#">Canopies</a></h3>
+            <h3 class="service-box-title"><a href="canopies">Canopies</a></h3>
             <p>Our canopies provide durable and stylish solutions for added vehicle protection and storage, perfect for both personal and commercial use.</p>
           </div>
         </div><!-- Service 1 end -->
@@ -289,7 +289,7 @@
             <img loading="lazy" src="public/services/images/icon-image/rubberizing.png" alt="service-icon">
           </div>
           <div class="ts-service-box-info">
-            <h3 class="service-box-title"><a href="#">Rubberizing</a></h3>
+            <h3 class="service-box-title"><a href="rubberizing">Rubberizing</a></h3>
             <p>Protect your vehicle’s undercarriage and load areas from rust and wear with our high-quality rubberizing services, ensuring a longer lifespan for your vehicle.</p>
           </div>
         </div><!-- Service 2 end -->
@@ -299,7 +299,7 @@
             <img loading="lazy" src="public/services/images/icon-image/accessories.png" alt="service-icon">
           </div>
           <div class="ts-service-box-info">
-            <h3 class="service-box-title"><a href="gis">Vehicle Accessories</a></h3>
+            <h3 class="service-box-title"><a href="accessories">Vehicle Accessories</a></h3>
             <p>Enhance and customize your vehicle with our extensive range of accessories, designed to meet both aesthetic and practical needs.</p>
           </div>
         </div><!-- Service 3 end -->
@@ -316,7 +316,7 @@
             <img loading="lazy" src="public/services/images/icon-image/entertainment.png" alt="service-icon">
           </div>
           <div class="ts-service-box-info">
-            <h3 class="service-box-title"><a href="#">Vehicle Entertainment</a></h3>
+            <h3 class="service-box-title"><a href="entertainment">Vehicle Entertainment</a></h3>
             <p>Upgrade your driving experience with our premium vehicle entertainment systems, including high-quality radios, speakers, and sub-woofers.</p>
           </div>
         </div><!-- Service 4 end -->
@@ -326,7 +326,7 @@
             <img loading="lazy" src="public/services/images/icon-image/protection.png" alt="service-icon">
           </div>
           <div class="ts-service-box-info">
-            <h3 class="service-box-title"><a href="#">Vehicle Protection</a></h3>
+            <h3 class="service-box-title"><a href="protection">Vehicle Protection</a></h3>
             <p>Safeguard your vehicle with our robust protection equipment, such as bull bars, tow bars, nudge bars, and roll bars, designed to prevent damage and enhance durability.</p>
           </div>
         </div><!-- Service 5 end -->
@@ -336,7 +336,7 @@
             <img loading="lazy" src="public/services/images/icon-image/security.png" alt="service-icon">
           </div>
           <div class="ts-service-box-info">
-            <h3 class="service-box-title"><a href="#">Vehicle Security</a></h3>
+            <h3 class="service-box-title"><a href="security">Vehicle Security</a></h3>
             <p>Ensure your vehicle’s safety with our advanced security solutions, including alarms, gear locks, and spare wheel locks, providing peace of mind against theft.</p>
           </div>
         </div><!-- Service 6 end -->
@@ -383,7 +383,7 @@
               <div class="project-item-info">
                 <div class="project-item-info-content">
                   <h3 class="project-item-title">
-                    <a href="projects-single.html">Canopies</a>
+                    <a href="canopies">Canopies</a>
                   </h3>
                   <p class="project-cat">Canopy</p>
                 </div>
@@ -400,7 +400,7 @@
               <div class="project-item-info">
                 <div class="project-item-info-content">
                   <h3 class="project-item-title">
-                    <a href="projects-single.html">Rubberizing</a>
+                    <a href="rubberizing">Rubberizing</a>
                   </h3>
                   <p class="project-cat">Rubber</p>
                 </div>
@@ -417,7 +417,7 @@
               <div class="project-item-info">
                 <div class="project-item-info-content">
                   <h3 class="project-item-title">
-                    <a href="projects-single.html">Vehicle Accessories</a>
+                    <a href="accessories">Vehicle Accessories</a>
                   </h3>
                   <p class="project-cat">Accessories</p>
                 </div>
@@ -434,7 +434,7 @@
               <div class="project-item-info">
                 <div class="project-item-info-content">
                   <h3 class="project-item-title">
-                    <a href="projects-single.html">Vehicle Entertainment</a>
+                    <a href="entertainment">Vehicle Entertainment</a>
                   </h3>
                   <p class="project-cat">Entertainment</p>
                 </div>
@@ -451,7 +451,7 @@
               <div class="project-item-info">
                 <div class="project-item-info-content">
                   <h3 class="project-item-title">
-                    <a href="projects-single.html">Vehicle Protection</a>
+                    <a href="protection">Vehicle Protection</a>
                   </h3>
                   <p class="project-cat">Protection</p>
                 </div>
@@ -468,7 +468,7 @@
               <div class="project-item-info">
                 <div class="project-item-info-content">
                   <h3 class="project-item-title">
-                    <a href="projects-single.html">Vehicle Security</a>
+                    <a href="security">Vehicle Security</a>
                   </h3>
                   <p class="project-cat">Security</p>
                 </div>

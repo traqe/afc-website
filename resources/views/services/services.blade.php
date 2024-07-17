@@ -35,9 +35,9 @@
               <img loading="lazy" src="public/services/images/icon-image/canopies.png" alt="service-icon">
             </div>
             <div class="ts-service-info">
-              <h3 class="service-box-title"><a href="sage">Canopies</a></h3>
+              <h3 class="service-box-title"><a href="canopies">Canopies</a></h3>
               <p>Our canopies provide durable and stylish solutions for added vehicle protection and storage, perfect for both personal and commercial use.</p>
-              <a class="learn-more d-inline-block" href="sage" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
+              <a class="learn-more d-inline-block" href="canopies" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
             </div>
           </div>
         </div><!-- Service1 end -->
@@ -53,9 +53,9 @@
               <img loading="lazy" src="public/services/images/icon-image/rubberizing.png" alt="service-icon">
             </div>
             <div class="ts-service-info">
-              <h3 class="service-box-title"><a href="software-development">Rubberizing</a></h3>
+              <h3 class="service-box-title"><a href="rubberizing">Rubberizing</a></h3>
               <p>Protect your vehicle’s undercarriage and load areas from rust and wear with our high-quality rubberizing services, ensuring a longer lifespan for your vehicle.</p>
-              <a class="learn-more d-inline-block" href="software-development" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
+              <a class="learn-more d-inline-block" href="rubberizing" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
             </div>
           </div>
         </div><!-- Service2 end -->
@@ -71,9 +71,9 @@
               <img loading="lazy" src="public/services/images/icon-image/accessories.png" alt="service-icon">
             </div>
             <div class="ts-service-info">
-              <h3 class="service-box-title"><a href="gis">Vehicle Accessories</a></h3>
+              <h3 class="service-box-title"><a href="accessories">Vehicle Accessories</a></h3>
               <p>Enhance and customize your vehicle with our extensive range of accessories, designed to meet both aesthetic and practical needs.</p>
-              <a class="learn-more d-inline-block" href="gis" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
+              <a class="learn-more d-inline-block" href="accessories" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
             </div>
           </div>
         </div><!-- Service3 end -->
@@ -89,9 +89,9 @@
               <img loading="lazy" src="public/services/images/icon-image/protection.png" alt="service-icon">
             </div>
             <div class="ts-service-info">
-              <h3 class="service-box-title"><a href="it">Vehicle Protection</a></h3>
+              <h3 class="service-box-title"><a href="protection">Vehicle Protection</a></h3>
               <p>Safeguard your vehicle with our robust protection equipment, such as bull bars, tow bars, nudge bars, and roll bars, designed to prevent damage and enhance durability.</p>
-              <a class="learn-more d-inline-block" href="it" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
+              <a class="learn-more d-inline-block" href="protection" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
             </div>
           </div>
         </div><!-- Service1 end -->
@@ -107,9 +107,9 @@
               <img loading="lazy" src="public/services/images/icon-image/entertainment.png" alt="service-icon">
             </div>
             <div class="ts-service-info">
-              <h3 class="service-box-title"><a href="payroll-hr">Vehicle Entertainment</a></h3>
+              <h3 class="service-box-title"><a href="entertainment">Vehicle Entertainment</a></h3>
               <p>Upgrade your driving experience with our premium vehicle entertainment systems, including high-quality radios, speakers, and sub-woofers.</p>
-              <a class="learn-more d-inline-block" href="payroll-hr" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
+              <a class="learn-more d-inline-block" href="entertainment" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
             </div>
           </div>
         </div><!-- Service2 end -->
@@ -125,9 +125,9 @@
               <img loading="lazy" src="public/services/images/icon-image/security.png" alt="service-icon">
             </div>
             <div class="ts-service-info">
-              <h3 class="service-box-title"><a href="reporting">Vehicle Security</a></h3>
+              <h3 class="service-box-title"><a href="security">Vehicle Security</a></h3>
               <p>Ensure your vehicle’s safety with our advanced security solutions, including alarms, gear locks, and spare wheel locks, providing peace of mind against theft.</p>
-              <a class="learn-more d-inline-block" href="reporting" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
+              <a class="learn-more d-inline-block" href="security" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
             </div>
           </div>
         </div><!-- Service3 end -->

@@ -102,12 +102,12 @@
                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Services <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown-menu" role="menu">
                       <li><a href="services">All Services</a></li>
-                      <li><a href="sage">Canopies</a></li>
-                      <li><a href="software-development">Rubberizing</a></li>
-                      <li><a href="gis">Vehicle Accessories</a></li>
-                      <li><a href="payroll-hr">Vehicle Entertainment</a></li>
-                      <li><a href="it">Vehicle Protection</a></li>
-                      <li><a href="reporting">Vehicle Security</a></li>
+                      <li><a href="canopies">Canopies</a></li>
+                      <li><a href="rubberizing">Rubberizing</a></li>
+                      <li><a href="accessories">Vehicle Accessories</a></li>
+                      <li><a href="entertainment">Vehicle Entertainment</a></li>
+                      <li><a href="protection">Vehicle Protection</a></li>
+                      <li><a href="security">Vehicle Security</a></li>
                     </ul>
                   </li>
                   <li class="nav-item"><a class="nav-link" href="shop">Accessories</a></li>
@@ -191,12 +191,12 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4 style="color: rgb(64,64,200);">OUR SERVICES</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="sage">Canopies</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="software-development">Rubberizing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="gis">Vehicle Accessories</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="payroll-hr">Vehicle Entertainment</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="it">Vehicle Protection</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="reporting">Vehicle Security</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="canopies">Canopies</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="rubberizing">Rubberizing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="accessories">Vehicle Accessories</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="entertainment">Vehicle Entertainment</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="protection">Vehicle Protection</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="security">Vehicle Security</a></li>
 
             </ul>
           </div>

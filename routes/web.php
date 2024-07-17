@@ -28,8 +28,8 @@ Route::get('/services', function () {
 Route::get('/shop', function () {
     return view('shop.index');
 });
-Route::get('/gis', function () {
-    return view('services.gis');
+Route::get('/accessories', function () {
+    return view('services.accessories');
 });
 
 
@@ -45,21 +45,21 @@ Route::post('/postEmail', function () {
 });
 
 // route to software-development-service-page
-Route::get('/software-development', function () {
-    return view('services.software-dev');
+Route::get('/rubberizing', function () {
+    return view('services.rubberizing');
 });
 
-Route::get('/it', function () {
-    return view('services.it');
+Route::get('/protection', function () {
+    return view('services.protection');
 });
 
-Route::get('/sage', function () {
-    return view('services.sage');
+Route::get('/canopies', function () {
+    return view('services.canopies');
 });
 
-Route::get('/reporting', function () {
-    return view('services.reporting');
+Route::get('/security', function () {
+    return view('services.security');
 });
-Route::get('/payroll-hr', function () {
-    return view('services.payroll_HR');
+Route::get('/entertainment', function () {
+    return view('services.entertainment');
 });
