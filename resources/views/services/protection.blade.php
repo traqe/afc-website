@@ -7,12 +7,12 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="banner-heading">
-                        <h1 class="banner-title">CAR PROTECTION</h1>
+                        <h1 class="banner-title">VEHICLE PROTECTION</h1>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb justify-content-center">
-                                <li class="breadcrumb-item"><a href="/afc">Home</a></li>
-                                <li class="breadcrumb-item"><a href="/afc/services">Services</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">CAR PROTECTION</li>
+                                <li class="breadcrumb-item"><a href="/afc.co.zw">Home</a></li>
+                                <li class="breadcrumb-item"><a href="/afc.co.zw/services">Services</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">VEHICLE PROTECTION</li>
                             </ol>
                         </nav>
                     </div>
@@ -28,9 +28,9 @@
       <div class="col-xl-3 col-lg-4">
         <div class="sidebar sidebar-left">
           <div class="widget">
-            <h3 class="widget-title">Car Protection</h3>
+            <h3 class="widget-title">Vehicle Protection</h3>
             <ul class="nav service-menu">
-              <li id="advanced" class="active"><a onclick="change_advanced()">Car Protection</a></li>
+              <li id="advanced" class="active"><a onclick="change_advanced()">Vehicle Protection</a></li>
             </ul>
           </div><!-- Widget end -->
         </div><!-- Sidebar end -->
@@ -43,7 +43,7 @@
 
           <div class="row" id="floating">
             <div style="text-align: justify" class="col-md-12">
-              <h2 class="column-title mrt-0">Car Protection</h2>
+              <h2 class="column-title mrt-0">Vehicle Protection</h2>
               <p>Safeguard your vehicle with our robust protection equipment, such as bull bars, tow bars, nudge bars, and roll bars, designed to prevent damage and enhance durability.</p>
               <p>We cover the following range of protection equipment for your car: <br></p>
               <ul>
@@ -90,7 +90,7 @@
                   <div class="card-header p-0 bg-transparent" id="headingOne">
                     <h2 class="mb-0">
                       <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Why is neccessary to protect your car?
+                        Why is neccessary to protect your vehicle?
                       </button>
                     </h2>
                   </div>
@@ -135,61 +135,61 @@
   </div><!-- Conatiner end -->
 </section><!-- Main container end -->
 
-<div id="myModal" class="modal">
+<div id="myModalHeader" class="modal">
 
-  <!-- Modal content -->
-  <div class="modal-content justify-contents-centre">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-10">
-          <p><strong>REQUEST FOR QUOTE</strong></p>
-        </div>
-        <div class="col-sm-2">
-          <span class="close">&times;</span>
+    <!-- Modal content -->
+    <div class="modal-content justify-contents-centre">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-10">
+            <p><strong>REQUEST FOR QUOTE</strong></p>
+          </div>
+          <div class="col-sm-2">
+            <span class="closeHeader close">&times;</span>
+          </div>
         </div>
       </div>
+      <form action="postEmail" method="POST">
+        @csrf
+        <input type="email" name="email" placeholder="Email" required>
+        <div class="gap-20"></div>
+        <input type="text" name="phone" placeholder="Phone Number" required>
+        <div class="gap-20"></div>
+        <fieldset>
+          <legend style="font-size: 15px; font-weight: bold;">SERVICES</legend>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <input type="checkbox" name="services[]" value="Canopies"> Canopies</br>
+              </div>
+              <div class="col-sm-6">
+                <input type="checkbox" name="services[]" value="Rubberizing"> Rubberizing</br>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6">
+                <input type="checkbox" name="services[]" value="Vehicle Accessories"> Vehicle Accessories</br>
+              </div>
+              <div class="col-sm-6">
+                <input type="checkbox" name="services[]" value="Vehicle Entertainment"> Vehicle Entertainment</br>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6">
+                <input type="checkbox" name="services[]" value="Vehicle Protection"> Vehicle Protection</br>
+              </div>
+              <div class="col-sm-6">
+                <input type="checkbox" name="services[]" value="Vehicle Security"> Vehicle Security</br>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <div class="gap-20"></div>
+        <input type="text" name="comment" placeholder="Descriprion of Service" required>
+        <div class="gap-20"></div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
     </div>
-    <form action="postEmail" method="POST">
-      @csrf
-      <input type="email" name="email" placeholder="Email" required>
-      <div class="gap-20"></div>
-      <input type="text" name="phone" placeholder="Phone Number" required>
-      <div class="gap-20"></div>
-      <fieldset>
-        <legend style="font-size: 15px; font-weight: bold;">SERVICES</legend>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6">
-              <input type="checkbox" name="services[]" value="Sage Evolution ERP"> Sage Evolution ERP</br>
-            </div>
-            <div class="col-sm-6">
-              <input type="checkbox" name="services[]" value="Software Development"> Software Development</br>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-6">
-              <input type="checkbox" name="services[]" value="Sage Evolution ERP"> GIS</br>
-            </div>
-            <div class="col-sm-6">
-              <input type="checkbox" name="services[]" value="Software Development"> HR & Payroll</br>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-6">
-              <input type="checkbox" name="services[]" value="Sage Evolution ERP"> IT Support</br>
-            </div>
-            <div class="col-sm-6">
-              <input type="checkbox" name="services[]" value="Software Development"> Reporting</br>
-            </div>
-          </div>
-        </div>
-      </fieldset>
-      <div class="gap-20"></div>
-      <input type="text" name="comment" placeholder="Comment" required>
-      <div class="gap-20"></div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-  </div>
 
 </div>
 

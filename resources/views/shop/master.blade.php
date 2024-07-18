@@ -13,7 +13,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Olimem-shop</title>
+  <title>AFC Accessories</title>
 
 
   <!-- bootstrap core css -->
@@ -33,64 +33,21 @@
 </head>
 
 <body>
-    <header class="header_section"> 
+    <header class="header_section">
         <div class="header_bottom">
           <div class="container-fluid">
             <nav class="navbar navbar-expand-lg custom_nav-container">
-              <a class="navbar-brand" href="index.html">
+              <a class="navbar-brand" href="/afc.co.zw/">
                 <span>
-                  Olimem
+                  <img style="height: 80px" src="public\img\favicon.png" alt="">
+                   AFC - Accessories Fitment Centre
                 </span>
               </a>
-  
+
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class=""> </span>
               </button>
-              
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <div class="dropdown show px-3">
-                  <i class="fa fa-filter" aria-hidden="true"></i><a class="dropdown-toggle text-dark" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                   <span> Browse Categories</span>
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <a class="dropdown-item" href="#">Laptops</a>
-                    <a class="dropdown-item" href="#">Drones</a>
-                    <a class="dropdown-item" href="#">Network Switch</a>
-                  </div>
-                </div>
-              
-              <from class="search_form">
-                <input type="text" class="form-control" placeholder="Search here...">
-                <button class="" type="submit">
-                  <i class="fa fa-search" aria-hidden="true"></i>
-                </button>
-              </from>
-              
-              
-                <div class="dropdown show">
-                  <i class="fa fa-gear" aria-hidden="true"></i><a class="dropdown-toggle text-dark" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <span>Services</span>
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <a class="dropdown-item" href="#">Laptop Repairs</a>
-                    <a class="dropdown-item" href="#">Data Recovery</a>
-                    <a class="dropdown-item" href="#">Network Support</a>
-                  </div>
-                </div>
-              </div>
-              <div class="user_option_box">
-                <a href="" class="account-link">
-                  <i class="fa fa-user" aria-hidden="true"></i>
-                  <span>
-                    My Account
-                  </span>
-                </a>
-                <a href="" class="cart-link">
-                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                  <span>
-                    Cart
-                  </span>
-                </a>
+
               </div>
             </nav>
           </div>
@@ -99,17 +56,16 @@
         <div class="header_top">
           <div class="container-fluid">
             <div class="top_nav_container">
-              <div class="contact_nav">
-                <a href="">
+              <div class="contact_nav row">
                   <i class="fa fa-phone" aria-hidden="true"></i>
                   <span>
-                    Call : +2638688006970/3
+                     Call : +263 4 746892/3; +263 8644 0759 25/6
                   </span>
-                </a>
-                <a href="">
+                <div style="width: 0.5cm"></div>
+                <a href="mailto:[afc@gmail.com]">
                   <i class="fa fa-envelope" aria-hidden="true"></i>
                   <span>
-                Email :marketing@olimement.com
+                Email :[afc@gmail.com]
                   </span>
                 </a>
               </div>
@@ -119,7 +75,7 @@
       </header>
 
       @yield('content')
-    
+
   <!-- footer section -->
   @include('shop.footer')
   <!-- footer section -->

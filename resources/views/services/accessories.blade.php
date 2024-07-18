@@ -7,12 +7,12 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="banner-heading">
-                        <h1 class="banner-title">CAR ACCESSORIES</h1>
+                        <h1 class="banner-title">Vehicle ACCESSORIES</h1>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb justify-content-center">
-                                <li class="breadcrumb-item"><a href="/afc">Home</a></li>
-                                <li class="breadcrumb-item"><a href="/afc/services">Services</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">CAR ACCESSORIES</li>
+                                <li class="breadcrumb-item"><a href="/afc.co.zw">Home</a></li>
+                                <li class="breadcrumb-item"><a href="/afc.co.zw/services">Services</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Vehicle ACCESSORIES</li>
                             </ol>
                         </nav>
                     </div>
@@ -30,7 +30,7 @@
           <div class="widget">
             <h3 class="widget-title"></h3>
             <ul class="nav service-menu">
-              <li id="advanced" class="active"><a onclick="change_advanced()">Car Accessories</a></li>
+              <li id="advanced" class="active"><a onclick="change_advanced()">Vehicle Accessories</a></li>
             </ul>
           </div><!-- Widget end -->
         </div><!-- Sidebar end -->
@@ -43,7 +43,7 @@
 
           <div class="row" id="floating">
             <div style="text-align: justify" class="col-md-12">
-              <h2 class="column-title mrt-0">Car Accessories</h2>
+              <h2 class="column-title mrt-0">Vehicle Accessories</h2>
               <p>Enhance and customize your vehicle with our extensive range of accessories, designed to meet both aesthetic and practical needs.</p>
               <p>We cover the following range of accessories: <br></p>
               <ul>
@@ -90,7 +90,7 @@
                   <div class="card-header p-0 bg-transparent" id="headingOne">
                     <h2 class="mb-0">
                       <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Why are high quality car accessories neccessary?
+                        Why are high quality vehicle accessories neccessary?
                       </button>
                     </h2>
                   </div>
@@ -98,7 +98,7 @@
                   <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#construction-accordion">
                     <div style="text-align: justify" class="card-body">
                       <p>
-                        High-quality car accessories offer several benefits. They enhance durability and longevity, improve safety, enhance performance, add aesthetic appeal, provide comfort, and positively impact resale value. Whether it’s durable tires, stylish seat covers, or safety features like airbags, investing in quality accessories is a smart choice for any car owner.
+                        High-quality vehicle accessories offer several benefits. They enhance durability and longevity, improve safety, enhance performance, add aesthetic appeal, provide comfort, and positively impact resale value. Whether it’s durable tires, stylish seat covers, or safety features like airbags, investing in quality accessories is a smart choice for any car owner.
                       </p>
                     </div>
                   </div>
@@ -135,61 +135,61 @@
   </div><!-- Conatiner end -->
 </section><!-- Main container end -->
 
-<div id="myModal" class="modal">
+<div id="myModalHeader" class="modal">
 
-  <!-- Modal content -->
-  <div class="modal-content justify-contents-centre">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-10">
-          <p><strong>REQUEST FOR QUOTE</strong></p>
-        </div>
-        <div class="col-sm-2">
-          <span class="close">&times;</span>
+    <!-- Modal content -->
+    <div class="modal-content justify-contents-centre">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-10">
+            <p><strong>REQUEST FOR QUOTE</strong></p>
+          </div>
+          <div class="col-sm-2">
+            <span class="closeHeader close">&times;</span>
+          </div>
         </div>
       </div>
+      <form action="postEmail" method="POST">
+        @csrf
+        <input type="email" name="email" placeholder="Email" required>
+        <div class="gap-20"></div>
+        <input type="text" name="phone" placeholder="Phone Number" required>
+        <div class="gap-20"></div>
+        <fieldset>
+          <legend style="font-size: 15px; font-weight: bold;">SERVICES</legend>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <input type="checkbox" name="services[]" value="Canopies"> Canopies</br>
+              </div>
+              <div class="col-sm-6">
+                <input type="checkbox" name="services[]" value="Rubberizing"> Rubberizing</br>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6">
+                <input type="checkbox" name="services[]" value="Vehicle Accessories"> Vehicle Accessories</br>
+              </div>
+              <div class="col-sm-6">
+                <input type="checkbox" name="services[]" value="Vehicle Entertainment"> Vehicle Entertainment</br>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6">
+                <input type="checkbox" name="services[]" value="Vehicle Protection"> Vehicle Protection</br>
+              </div>
+              <div class="col-sm-6">
+                <input type="checkbox" name="services[]" value="Vehicle Security"> Vehicle Security</br>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <div class="gap-20"></div>
+        <input type="text" name="comment" placeholder="Descriprion of Service" required>
+        <div class="gap-20"></div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
     </div>
-    <form action="postEmail" method="POST">
-      @csrf
-      <input type="email" name="email" placeholder="Email" required>
-      <div class="gap-20"></div>
-      <input type="text" name="phone" placeholder="Phone Number" required>
-      <div class="gap-20"></div>
-      <fieldset>
-        <legend style="font-size: 15px; font-weight: bold;">SERVICES</legend>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6">
-              <input type="checkbox" name="services[]" value="Sage Evolution ERP"> Sage Evolution ERP</br>
-            </div>
-            <div class="col-sm-6">
-              <input type="checkbox" name="services[]" value="Software Development"> Software Development</br>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-6">
-              <input type="checkbox" name="services[]" value="Sage Evolution ERP"> GIS</br>
-            </div>
-            <div class="col-sm-6">
-              <input type="checkbox" name="services[]" value="Software Development"> HR & Payroll</br>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-6">
-              <input type="checkbox" name="services[]" value="Sage Evolution ERP"> IT Support</br>
-            </div>
-            <div class="col-sm-6">
-              <input type="checkbox" name="services[]" value="Software Development"> Reporting</br>
-            </div>
-          </div>
-        </div>
-      </fieldset>
-      <div class="gap-20"></div>
-      <input type="text" name="comment" placeholder="Comment" required>
-      <div class="gap-20"></div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-  </div>
 
 </div>
 

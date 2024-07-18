@@ -11,7 +11,7 @@
             <h2 class="slide-title" data-animation-in="slideInLeft">Years OF EXCELLENCE</h2>
             <h3 class="slide-sub-title" data-animation-in="slideInRight">Canopy Fitting</h3>
             <p data-animation-in="slideInLeft" data-duration-in="1.2">
-              <a href="/afc/services" class="slider btn btn-danger border">Our Services</a>
+              <a href="/afc.co.zw/services" class="slider btn btn-danger border">Our Services</a>
               <a href="#footer" class="slider btn btn-warning border">Contact Now</a>
             </p>
           </div>
@@ -29,7 +29,7 @@
             <h3 class="slide-title" data-animation-in="fadeIn">Experience AFC's</h3>
             <h3 class="slide-sub-title" data-animation-in="slideInLeft">Top Grade Rubberizing</h3>
             <p data-animation-in="slideInRight">
-              <a href="/afc/services" class="slider btn btn-danger border">Our Services</a>
+              <a href="/afc.co.zw/services" class="slider btn btn-danger border">Our Services</a>
             </p>
           </div>
         </div>
@@ -43,7 +43,7 @@
         <div class="row align-items-center h-100">
           <div class="col-md-12">
             <h2 class="slide-title" data-animation-in="slideInDown">Effective</h2>
-            <h3 class="slide-sub-title" data-animation-in="fadeIn">Car Accessories</h3>
+            <h3 class="slide-sub-title" data-animation-in="fadeIn">Vehicle Accessories</h3>
             <p class="slider-description lead" data-animation-in="slideInRight">For All Requirements For Your Car</p>
             <div data-animation-in="slideInLeft">
               <a href="about.html" class="slider btn btn-primary border" aria-label="learn-more-about-us">Learn more</a>
@@ -60,7 +60,7 @@
         <div class="row align-items-center h-100">
           <div class="col-md-12">
             <h2 class="slide-title" data-animation-in="slideInDown">High Quality</h2>
-            <h3 class="slide-sub-title" data-animation-in="fadeIn">Car Entertainment</h3>
+            <h3 class="slide-sub-title" data-animation-in="fadeIn">Vehicle Entertainment</h3>
             <p class="slider-description lead" data-animation-in="slideInRight">For You To Enjoy The Ride</p>
             <div data-animation-in="slideInLeft">
               <a href="about.html" class="slider btn btn-primary border" aria-label="learn-more-about-us">Learn more</a>
@@ -78,7 +78,7 @@
           <div class="col-md-12">
             <h2 class="slide-title-box" data-animation-in="slideInDown">Security</h2>
             <h3 class="slide-title" data-animation-in="fadeIn">Reliable & Top Notch</h3>
-            <h3 class="slide-sub-title" data-animation-in="slideInLeft">Car Security</h3>
+            <h3 class="slide-sub-title" data-animation-in="slideInLeft">Vehicle Security</h3>
             <p data-animation-in="slideInRight">
               <a href="services.html" class="slider btn btn-danger border">Our Services</a>
             </p>
@@ -312,32 +312,32 @@
 
       <div class="col-lg-4 mt-5 mt-lg-0 mb-4 mb-lg-0">
         <div class="ts-service-box d-flex">
-          <div class="ts-service-box-img">
-            <img loading="lazy" src="public/services/images/icon-image/entertainment.png" alt="service-icon">
-          </div>
           <div class="ts-service-box-info">
             <h3 class="service-box-title"><a href="entertainment">Vehicle Entertainment</a></h3>
             <p>Upgrade your driving experience with our premium vehicle entertainment systems, including high-quality radios, speakers, and sub-woofers.</p>
           </div>
+          <div class="ts-service-box-img">
+            <img loading="lazy" src="public/services/images/icon-image/entertainment.png" alt="service-icon">
+          </div>
         </div><!-- Service 4 end -->
 
         <div class="ts-service-box d-flex">
-          <div class="ts-service-box-img">
-            <img loading="lazy" src="public/services/images/icon-image/protection.png" alt="service-icon">
-          </div>
           <div class="ts-service-box-info">
             <h3 class="service-box-title"><a href="protection">Vehicle Protection</a></h3>
             <p>Safeguard your vehicle with our robust protection equipment, such as bull bars, tow bars, nudge bars, and roll bars, designed to prevent damage and enhance durability.</p>
           </div>
+          <div class="ts-service-box-img">
+            <img loading="lazy" src="public/services/images/icon-image/protection.png" alt="service-icon">
+          </div>
         </div><!-- Service 5 end -->
 
         <div class="ts-service-box d-flex">
-          <div class="ts-service-box-img">
-            <img loading="lazy" src="public/services/images/icon-image/security.png" alt="service-icon">
-          </div>
           <div class="ts-service-box-info">
             <h3 class="service-box-title"><a href="security">Vehicle Security</a></h3>
             <p>Ensure your vehicle’s safety with our advanced security solutions, including alarms, gear locks, and spare wheel locks, providing peace of mind against theft.</p>
+          </div>
+          <div class="ts-service-box-img">
+            <img loading="lazy" src="public/services/images/icon-image/security.png" alt="service-icon">
           </div>
         </div><!-- Service 6 end -->
       </div><!-- Col end -->
@@ -480,7 +480,7 @@
 
       <div class="col-12">
         <div class="general-btn text-center">
-          <a class="btn btn-primary" href="/afc/services">View All Services</a>
+          <a class="btn btn-primary" href="/afc.co.zw/services">View All Services</a>
         </div>
       </div>
 

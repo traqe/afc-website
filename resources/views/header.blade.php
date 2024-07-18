@@ -47,7 +47,7 @@
         <div class="logo-area">
           <div class="row align-items-center">
             <div class="logo col-lg-3 text-center text-lg-left mb-3 mb-md-5 mb-lg-0">
-              <a class="d-block" href="/afc">
+              <a class="d-block" href="/afc.co.zw">
                 <img loading="lazy" src="public/services/afc-logo.jpg" alt="afc logo">
               </a>
             </div><!-- logo end -->
@@ -94,7 +94,7 @@
 
               <div id="navbar-collapse" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav mr-auto">
-                  <li class="nav-item"><a class="nav-link" href="/afc">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/afc.co.zw">Home</a></li>
 
                   <li class="nav-item"><a class="nav-link" href="#ts-features">About Us</a></li>
 
@@ -169,22 +169,23 @@
           </div>
 
           <div class="col-lg-3 col-md-8">
-            <h4 style="color: rgb(32, 32, 170);">PHONE</h4>
+            <h4 style="color: rgb(64, 64, 200);">PHONE</h4>
             +263 4 746892/3 <br>
             +263 8644 0759 25/6
             <br>
             <br>
             <h4 style="color: rgb(64,64,200);">EMAIL</h4>
             <p>[afc-email]</p>
+            <a id="facebook-link" href="https://www.facebook.com/accessoriesfitmentcentrezw/"><img style="height: 35px; color-overlay:white" src="public\services\images\icon-image\Facebook.png" alt="facebook-icon"></a><br>
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
             <h4 style="color: rgb(64,64,200);">Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="/afc">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/afc.co.zw">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#ts-features">About us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="services">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/afc/shop">Accessories</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/afc.co.zw/shop">Accessories</a></li>
             </ul>
           </div>
 

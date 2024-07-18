@@ -1,114 +1,16 @@
 @extends('shop.master')
 @section('content')
-
-  <div class="hero_area">
-    <!-- header section strats -->
-
-    <!-- end header section -->
-    <!-- slider section -->
-    <section class="slider_section ">
-      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="container ">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="detail-box">
-                    <h1>
-                      HP Reseller
-                    </h1>
-                    <p>
-                      HP has a fantastic selection of laptops from which to choose.
-                    </p>
-                    <a href="#">
-                      Browse More
-                    </a>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="img-box">
-                    <img src="{{ asset('public/shop') }}/images/laptop.png" alt="">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container ">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="detail-box">
-                    <h1>
-                      SHOP DJI DRONES
-                    </h1>
-                    <p>
-                      You are choosing one of the industry's leaders when you choose DJI drones. This technology is high-quality and features long flight periods, excellent camera drones, and precise positioning.
-                    </p>
-                    <a href="">
-                      ENQUIRE
-                    </a>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="img-box">
-                    <img src="{{ asset('public/shop') }}/images/slider-img.png" alt="">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container ">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="detail-box">
-                    <h1>
-                      Shop Tenda
-                    </h1>
-                    <p>
-                      Leading networking provider Tenda Technology offers cost-effective, feature-rich home and small business solutions. They provide a variety of connectivity devices, including smart plugs, network switches, home routers, and range extenders.
-                    </p>
-                    <a href="">
-                      Shop
-                    </a>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="img-box">
-                    <img src="{{ asset('public/shop') }}/images/tenda.png" alt="">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel_btn_box">
-          <a class="carousel-control-prev" href="#customCarousel1" role="button" data-slide="prev">
-            <i class="fa fa-angle-left" aria-hidden="true"></i>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#customCarousel1" role="button" data-slide="next">
-            <i class="fa fa-angle-right" aria-hidden="true"></i>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-    </section>
-    <!-- end slider section -->
-  </div>
-
-
   <!-- product section -->
 
   <section class="product_section layout_padding">
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
-          Our Products
+          Our Services
         </h2>
       </div>
       <div class="row">
-        {{-- 
+        {{--
         <div class="col-sm-8 col-lg-4">
           <div class="box">
             <div class="img-box">
@@ -198,183 +100,133 @@
         </div>
         --}}
         <div class="col-sm-6 col-lg-4">
-          <div class="box">
-            <div class="img-box">
-              <img src="{{ asset('public/shop') }}/images/all.jpeg" alt="">
-              <a href="" class="add_cart_btn">
-                <span>
-                  Shop
-                </span>
-              </a>
-            </div>
-            <div class="detail-box">
-              <h5>
-                Desktop PCs
-              </h5>
-              <div class="product_info">
-                <!--<h5>
-                  <span>$</span> 300
-                </h5>-->
-                <div class="star_container">
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                </div>
+            <div class="box">
+              <div class="detail-box">
+                <img style="height: 90px; border-radius: 90px" src="public/services/images/products/v-accessories-img.jpg"/>
+                <h5 style="margin-left: 0.8cm; margin-top: 0.4cm">
+                  Vehicle Accessories
+                </h5>
+                <p>
+                  <ul>
+                      <li>Car Floor Mats</li>
+                      <li>Weather Shields</li>
+                      <li>Seat Covers</li>
+                      <li>Upholstery</li>
+                      <li>LED Lights</li>
+                      <li>Customised Fibreglass Work</li>
+                      <li>Spray Painting</li>
+                      <li>Tonneou Covers (Tents)</li>
+                  </ul>
+                </p>
               </div>
             </div>
           </div>
-        </div>
-         
-        <div class="col-sm-6 col-lg-4">
-          <div class="box">
-            <div class="img-box">
-              <img src="{{ asset('public/shop') }}/images/drive.jpg" alt="">
-              <a href="" class="add_cart_btn">
-                <span>
-                  Shop
-                </span>
-              </a>
-            </div>
-            <div class="detail-box">
-              <h5>
-                Storage Drives
-              </h5>
-              <div class="product_info">
-                <!--<h5>
-                  <span>$</span> 300
-                </h5>-->
-                <div class="star_container">
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="box">
+              <div class="detail-box">
+                <img style="height: 90px; border-radius: 90px" src="public/services/images/products/v-security-img.jpg"/>
+                <h5 style="margin-left: 0.8cm; margin-top: 0.4cm">
+                  Vehicle Security
+                </h5>
+                <p>
+                  <ul>
+                      <li>Motor Vehicle Alarms</li>
+                      <li>Parking Assist Sensors</li>
+                      <li>Smash and Grab Protection</li>
+                      <li>Window Tint</li>
+                      <li>Wheel Lock Nuts</li>
+                      <li>Sparewheel Locks</li>
+                      <li>Solex Locks</li>
+                  </ul>
+                </p>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-6 col-lg-4">
-          <div class="box">
-            <div class="img-box">
-              <img src="{{ asset('public/shop') }}/images/combo.jpg" alt="">
-              <a href="" class="add_cart_btn">
-                <span>
-                  Shop
-                </span>
-              </a>
-            </div>
-            <div class="detail-box">
-              <h5>
-                Keyboard Mouse Combo
-              </h5>
-              <div class="product_info">
-                <!--<h5>
-                  <span>$</span> 300
-                </h5>-->
-                <div class="star_container">
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="box">
+              <div class="detail-box">
+                <img style="height: 90px; border-radius: 90px" src="public/services/images/products/v-protection-img.jpg"/>
+                <h5 style="margin-left: 0.8cm; margin-top: 0.4cm">
+                  Vehicle Protection
+                </h5>
+                <p>
+                  <ul>
+                      <li>Nudge Bars</li>
+                      <li>Roll Bars</li>
+                      <li>Bumper Protectors</li>
+                      <li>Bull Bars</li>
+                      <li>Tow Bars</li>
+                      <li>Rear Bumper Replacement</li>
+                      <li>Side Steps</li>
+                      <li>Winch</li>
+                  </ul>
+                </p>
               </div>
             </div>
           </div>
-        </div>
         <div class="col-sm-6 col-lg-4">
           <div class="box">
-            <div class="img-box">
-              <img src="{{ asset('public/shop') }}/images/ram.jpg" alt="">
-              <a href="" class="add_cart_btn">
-                <span>
-                  Shop
-                </span>
-              </a>
-            </div>
             <div class="detail-box">
-              <h5>
-                PC Ram
+              <img style="height: 90px; border-radius: 90px" src="public\services\images\services\canopy2.jpeg"/>
+              <h5 style="margin-left: 0.8cm; margin-top: 0.4cm">
+                Canopies
               </h5>
-              <div class="product_info">
-                <!--<h5>
-                  <span>$</span> 300
-                </h5>-->
-                <div class="star_container">
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                </div>
-              </div>
+              <p>
+                <ul>
+                    <li>Chevloret</li>
+                    <li>Ford</li>
+                    <li>Toyota</li>
+                    <li>Isuzu</li>
+                    <li>Mazda</li>
+                    <li>Nissan</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="box">
+            <div class="detail-box">
+              <img style="height: 90px; border-radius: 90px" src="public/services/images/products/rubberizing-img.jpg"/>
+              <h5 style="margin-left: 0.8cm; margin-top: 0.4cm">
+                Rubberizing
+              </h5>
+              <p>
+                <ul>
+                    <li>Standard 3mm thick</li>
+                    <li>Heavy Duty 5mm thick</li>
+                    <li>Customised</li>
+                    <li>Stone Chip</li>
+                </ul>
+              </p>
             </div>
           </div>
         </div>
         <div class="col-sm-6 col-lg-4">
           <div class="box">
-            <div class="img-box">
-              <img src="{{ asset('public/shop') }}/images/stationery.png" alt="">
-              <a href="" class="add_cart_btn">
-                <span>
-                  Shop
-                </span>
-              </a>
-            </div>
             <div class="detail-box">
-              <h5>
-                Stationery
+              <img style="height: 90px; border-radius: 90px" src="public/services/images/products/v-entertainment-img.jpg"/>
+              <h5 style="margin-left: 0.8cm; margin-top: 0.4cm">
+                Vehicle Entertainment
               </h5>
-              <div class="product_info">
-                <!--<h5>
-                  <span>$</span> 300
-                </h5>-->
-                <div class="star_container">
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-lg-4">
-          <div class="box">
-            <div class="img-box">
-              <img src="{{ asset('public/shop') }}/images/p9.png" alt="">
-              <a href="" class="add_cart_btn">
-                <span>
-                  Shop
-                </span>
-              </a>
-            </div>
-            <div class="detail-box">
-              <h5>
-                Web Cams
-              </h5>
-              <div class="product_info">
-                <!--<h5>
-                  <span>$</span> 300
-                </h5>-->
-                <div class="star_container">
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                </div>
-              </div>
+              <p>
+                <ul>
+                <li>Single Din Radios</li>
+                <li>Double Din Radios</li>
+                <li>Satelite Navigation Radios (6 inch & 6 x 9 inch)</li>
+                <li>Speakers</li>
+                <li>Subwoofers</li>
+                <li>Amplifiers</li>
+                <li>DVD Headset</li>
+                </ul>
+              </p>
             </div>
           </div>
         </div>
       </div>
       <div class="btn_box">
-        <a href="" class="view_more-link">
+        <a href="/afc.co.zw/services" class="view_more-link">
           View More
         </a>
       </div>
@@ -389,24 +241,27 @@
     <div class="container-fluid  ">
       <div class="row">
         <div class="col-md-5 ml-auto">
-          <div class="detail-box pr-md-3">
+          <div style="text-align: justify" class="detail-box pr-md-3">
             <div class="heading_container">
               <h2>
                 We Provide Best For You
               </h2>
             </div>
             <p>
-              Every company must be a digital organization that is data-driven, operating in a multi-cloud environment, and capable of utilizing technologies like artificial intelligence, machine learning, the Internet of Things, edge computing, and more.
-              To assist your business in transforming and thriving, look to us for IT infrastructure and workload solutions that may be provided on-demand, as a service.
+                We are a wholly owned Zimbabwean company incorporated in 2012.
+                The Company trades in buying and selling of vehicle accessories such as canopies, vehicle
+                protection equipment (bull bars, tow bars, nudge bars, roll bars); vehicle security (alarms,
+                gear locks, spare wheel locks); vehicle entertainment (radios, speakers, sub-woofers), motor
+                glass (windscreens, door glass, panel glass, quarter glass).
             </p>
-            <a href="">
+            <a href="/afc.co.zw/#ts-features">
               Read More
             </a>
           </div>
         </div>
         <div class="col-md-6 px-0">
           <div class="img-box">
-            <img src="{{ asset('public/shop') }}/images/about.jpg" alt="">
+            <img src="{{ asset('public/services') }}/images/slider-main/canopy-slide.jpeg" alt="">
           </div>
         </div>
       </div>
@@ -415,7 +270,7 @@
 
   <!-- end about section -->
 
-  
+
   <!-- why us section -->
 
   <section class="why_us_section layout_padding">
@@ -433,7 +288,7 @@
             </div>
             <div class="detail-box">
               <h5>
-                Fast Delivery
+                Top Notch Services
               </h5>
             </div>
           </div>
@@ -445,7 +300,7 @@
             </div>
             <div class="detail-box">
               <h5>
-                Relaible Shiping
+                Durable Accessories
               </h5>
             </div>
           </div>
@@ -465,10 +320,10 @@
       </div>
     </div>
   </section>
- 
+
   <!-- end why us section -->
 
-{{-- 
+{{--
   <!-- client section -->
 
   <section class="client_section layout_padding-bottom">
@@ -599,7 +454,7 @@
   <!-- end client section -->
 --}}
   <!-- info section -->
- 
+
 
   <!-- end info_section -->
 

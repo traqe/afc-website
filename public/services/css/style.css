@@ -102,6 +102,15 @@ h5 {
     transition: all 1s ease;
 }
 
+#facebook {
+    color: rgb(64, 64, 180);
+}
+
+#facebook-link:hover {
+    color: white;
+    text-align: underline;
+}
+
 /* Global styles
 ================================================== */
 html {
